@@ -1,0 +1,7 @@
+2018-03-10 17:52:32,020 [INFO] __main__: Logging configuration of the file
+2018-03-10 17:52:32,022 [INFO] __main__: LOGGING_CONFIG
+2018-03-10 17:52:32,026 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-03-10 17:52:32,030 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 25
+2018-03-10 17:52:32,030 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-10 17:52:32,178 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 300 agents and working on estimating parameter view_radius with a resolution of 300
+2018-03-10 17:52:32,178 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 300, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20

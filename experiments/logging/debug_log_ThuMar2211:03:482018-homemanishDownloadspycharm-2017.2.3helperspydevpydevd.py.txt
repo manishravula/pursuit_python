@@ -1,0 +1,5 @@
+2018-03-22 11:03:48,161 [INFO] nocp-correstim1521734628: -----Experiment type nocp-correstim ------ 
+2018-03-22 11:03:48,162 [INFO] nocp-correstim1521734628: -----------------------------Experiment ID 1521734628 begins--------------------------
+2018-03-22 11:03:48,162 [INFO] nocp-correstim1521734628: Configuration of the experiment: no_experiments: 2
+2018-03-22 11:03:48,162 [INFO] nocp-correstim1521734628: Configurations of the experiment: n_max_iters_experiment: 150
+2018-03-22 11:03:48,162 [INFO] nocp-correstim1521734628: Configurations of the experiment: n_agents: 4

@@ -1,0 +1,130 @@
+2018-04-13 00:53:01,895 [INFO] 1523598781: -----------------------------Experiment ID 1523598781 begins--------------------------
+2018-04-13 00:53:01,895 [INFO] 1523598781: Configuration of the experiment: no_experiments: 1
+2018-04-13 00:53:01,895 [INFO] 1523598781: Configurations of the experiment: n_max_iters_experiment: 100
+2018-04-13 00:53:01,895 [INFO] 1523598781: Configurations of the experiment: n_agents: 4
+2018-04-13 00:53:01,895 [INFO] 1523598781: Configurations of the experiment: n_agents_tracking: 1
+2018-04-13 00:53:01,896 [INFO] 1523598781: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-04-13 00:53:01,896 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-04-13 00:53:01,899 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 28
+2018-04-13 00:53:01,899 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-04-13 00:53:01,903 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-04-13 00:53:01,903 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-04-13 00:53:01,903 [INFO] 1523598781: iter 0 in experiment 0
+2018-04-13 00:53:01,926 [INFO] 1523598781: iter 1 in experiment 0
+2018-04-13 00:53:01,933 [INFO] 1523598781: iter 2 in experiment 0
+2018-04-13 00:53:01,940 [INFO] 1523598781: iter 3 in experiment 0
+2018-04-13 00:53:01,947 [INFO] 1523598781: iter 4 in experiment 0
+2018-04-13 00:53:01,955 [INFO] 1523598781: iter 5 in experiment 0
+2018-04-13 00:53:01,962 [INFO] 1523598781: iter 6 in experiment 0
+2018-04-13 00:53:01,968 [INFO] 1523598781: iter 7 in experiment 0
+2018-04-13 00:53:01,975 [INFO] 1523598781: iter 8 in experiment 0
+2018-04-13 00:53:01,982 [INFO] 1523598781: iter 9 in experiment 0
+2018-04-13 00:53:01,988 [INFO] 1523598781: iter 10 in experiment 0
+2018-04-13 00:53:01,995 [INFO] 1523598781: iter 11 in experiment 0
+2018-04-13 00:53:02,002 [INFO] 1523598781: iter 12 in experiment 0
+2018-04-13 00:53:02,009 [INFO] 1523598781: iter 13 in experiment 0
+2018-04-13 00:53:02,016 [INFO] 1523598781: iter 14 in experiment 0
+2018-04-13 00:53:02,023 [INFO] 1523598781: iter 15 in experiment 0
+2018-04-13 00:53:02,029 [INFO] 1523598781: iter 16 in experiment 0
+2018-04-13 00:53:02,036 [INFO] 1523598781: iter 17 in experiment 0
+2018-04-13 00:53:02,043 [INFO] 1523598781: iter 18 in experiment 0
+2018-04-13 00:53:02,049 [INFO] 1523598781: iter 19 in experiment 0
+2018-04-13 00:53:02,056 [INFO] 1523598781: iter 20 in experiment 0
+2018-04-13 00:53:02,063 [INFO] 1523598781: iter 21 in experiment 0
+2018-04-13 00:53:02,070 [INFO] 1523598781: iter 22 in experiment 0
+2018-04-13 00:53:02,077 [INFO] 1523598781: iter 23 in experiment 0
+2018-04-13 00:53:02,084 [INFO] 1523598781: iter 24 in experiment 0
+2018-04-13 00:53:02,090 [INFO] 1523598781: iter 25 in experiment 0
+2018-04-13 00:53:02,097 [INFO] 1523598781: iter 26 in experiment 0
+2018-04-13 00:53:02,105 [INFO] 1523598781: iter 27 in experiment 0
+2018-04-13 00:53:02,112 [INFO] 1523598781: iter 28 in experiment 0
+2018-04-13 00:53:02,119 [INFO] 1523598781: iter 29 in experiment 0
+2018-04-13 00:53:02,126 [INFO] 1523598781: iter 30 in experiment 0
+2018-04-13 00:53:02,132 [INFO] 1523598781: iter 31 in experiment 0
+2018-04-13 00:53:02,139 [INFO] 1523598781: iter 32 in experiment 0
+2018-04-13 00:53:02,146 [INFO] 1523598781: iter 33 in experiment 0
+2018-04-13 00:53:02,153 [INFO] 1523598781: iter 34 in experiment 0
+2018-04-13 00:53:02,159 [INFO] 1523598781: iter 35 in experiment 0
+2018-04-13 00:53:02,166 [INFO] 1523598781: iter 36 in experiment 0
+2018-04-13 00:53:02,172 [INFO] 1523598781: iter 37 in experiment 0
+2018-04-13 00:53:02,179 [INFO] 1523598781: iter 38 in experiment 0
+2018-04-13 00:53:02,185 [INFO] 1523598781: iter 39 in experiment 0
+2018-04-13 00:53:02,192 [INFO] 1523598781: iter 40 in experiment 0
+2018-04-13 00:53:02,199 [INFO] 1523598781: iter 41 in experiment 0
+2018-04-13 00:53:02,205 [INFO] 1523598781: iter 42 in experiment 0
+2018-04-13 00:53:02,212 [INFO] 1523598781: iter 43 in experiment 0
+2018-04-13 00:53:02,218 [INFO] 1523598781: iter 44 in experiment 0
+2018-04-13 00:53:02,225 [INFO] 1523598781: iter 45 in experiment 0
+2018-04-13 00:53:02,231 [INFO] 1523598781: iter 46 in experiment 0
+2018-04-13 00:53:02,238 [INFO] 1523598781: iter 47 in experiment 0
+2018-04-13 00:53:02,244 [INFO] 1523598781: iter 48 in experiment 0
+2018-04-13 00:53:02,251 [INFO] 1523598781: iter 49 in experiment 0
+2018-04-13 00:53:02,258 [INFO] 1523598781: iter 50 in experiment 0
+2018-04-13 00:53:02,264 [INFO] 1523598781: iter 51 in experiment 0
+2018-04-13 00:53:02,271 [INFO] 1523598781: iter 52 in experiment 0
+2018-04-13 00:53:02,278 [INFO] 1523598781: iter 53 in experiment 0
+2018-04-13 00:53:02,285 [INFO] 1523598781: iter 54 in experiment 0
+2018-04-13 00:53:02,291 [INFO] 1523598781: iter 55 in experiment 0
+2018-04-13 00:53:02,301 [INFO] 1523598781: iter 56 in experiment 0
+2018-04-13 00:53:02,309 [INFO] 1523598781: iter 57 in experiment 0
+2018-04-13 00:53:02,315 [INFO] 1523598781: iter 58 in experiment 0
+2018-04-13 00:53:02,322 [INFO] 1523598781: iter 59 in experiment 0
+2018-04-13 00:53:02,330 [INFO] 1523598781: iter 60 in experiment 0
+2018-04-13 00:53:02,337 [INFO] 1523598781: iter 61 in experiment 0
+2018-04-13 00:53:02,343 [INFO] 1523598781: iter 62 in experiment 0
+2018-04-13 00:53:02,350 [INFO] 1523598781: iter 63 in experiment 0
+2018-04-13 00:53:02,356 [INFO] 1523598781: iter 64 in experiment 0
+2018-04-13 00:53:02,363 [INFO] 1523598781: iter 65 in experiment 0
+2018-04-13 00:53:02,369 [INFO] 1523598781: iter 66 in experiment 0
+2018-04-13 00:53:02,376 [INFO] 1523598781: iter 67 in experiment 0
+2018-04-13 00:53:02,383 [INFO] 1523598781: iter 68 in experiment 0
+2018-04-13 00:53:02,389 [INFO] 1523598781: iter 69 in experiment 0
+2018-04-13 00:53:02,396 [INFO] 1523598781: iter 70 in experiment 0
+2018-04-13 00:53:02,402 [INFO] 1523598781: iter 71 in experiment 0
+2018-04-13 00:53:02,409 [INFO] 1523598781: iter 72 in experiment 0
+2018-04-13 00:53:02,415 [INFO] 1523598781: iter 73 in experiment 0
+2018-04-13 00:53:02,422 [INFO] 1523598781: iter 74 in experiment 0
+2018-04-13 00:53:02,428 [INFO] 1523598781: iter 75 in experiment 0
+2018-04-13 00:53:02,435 [INFO] 1523598781: iter 76 in experiment 0
+2018-04-13 00:53:02,442 [INFO] 1523598781: iter 77 in experiment 0
+2018-04-13 00:53:02,448 [INFO] 1523598781: iter 78 in experiment 0
+2018-04-13 00:53:02,455 [INFO] 1523598781: iter 79 in experiment 0
+2018-04-13 00:53:02,462 [INFO] 1523598781: iter 80 in experiment 0
+2018-04-13 00:53:02,468 [INFO] 1523598781: iter 81 in experiment 0
+2018-04-13 00:53:02,475 [INFO] 1523598781: iter 82 in experiment 0
+2018-04-13 00:53:02,482 [INFO] 1523598781: iter 83 in experiment 0
+2018-04-13 00:53:02,488 [INFO] 1523598781: iter 84 in experiment 0
+2018-04-13 00:53:02,494 [INFO] 1523598781: iter 85 in experiment 0
+2018-04-13 00:53:02,501 [INFO] 1523598781: iter 86 in experiment 0
+2018-04-13 00:53:02,510 [INFO] 1523598781: iter 87 in experiment 0
+2018-04-13 00:53:02,517 [INFO] 1523598781: iter 88 in experiment 0
+2018-04-13 00:53:02,524 [INFO] 1523598781: iter 89 in experiment 0
+2018-04-13 00:53:02,530 [INFO] 1523598781: iter 90 in experiment 0
+2018-04-13 00:53:02,537 [INFO] 1523598781: iter 91 in experiment 0
+2018-04-13 00:53:02,544 [INFO] 1523598781: iter 92 in experiment 0
+2018-04-13 00:53:02,550 [INFO] 1523598781: iter 93 in experiment 0
+2018-04-13 00:53:02,557 [INFO] 1523598781: iter 94 in experiment 0
+2018-04-13 00:53:02,564 [INFO] 1523598781: iter 95 in experiment 0
+2018-04-13 00:53:02,570 [INFO] 1523598781: iter 96 in experiment 0
+2018-04-13 00:53:02,577 [INFO] 1523598781: iter 97 in experiment 0
+2018-04-13 00:53:02,584 [INFO] 1523598781: iter 98 in experiment 0
+2018-04-13 00:53:02,591 [INFO] 1523598781: iter 99 in experiment 0
+2018-04-13 00:53:02,597 [INFO] root: result left_over_items, 25
+2018-04-13 00:53:02,598 [INFO] root: result tags, Namespace(settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2')
+2018-04-13 00:53:02,598 [INFO] root: result game_length, 100
+2018-04-13 00:53:02,598 [INFO] root: result experimentID, 0
+2018-04-13 00:53:02,598 [INFO] root: result ini_number_items, 28
+2018-04-13 00:53:02,598 [INFO] 1523598781: End of expriment 0
+2018-04-13 00:53:34,084 [ERROR] root: Experiment failed
+Traceback (most recent call last):
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/experiments/experiment_master_nocp_nomcts.py", line 204, in <module>
+    resultname = str(experimentID)+'_'+'_'+args.mcts_setting
+AttributeError: 'Namespace' object has no attribute 'mcts_setting'

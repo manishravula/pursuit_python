@@ -1,0 +1,239 @@
+2018-03-25 20:11:57,577 [INFO] __main__: Logging configuration of the file
+2018-03-25 20:11:57,578 [INFO] __main__: LOGGING_CONFIG
+2018-03-25 20:11:57,582 [INFO] src.utils.generate_init: Initializing new configuration
+2018-03-25 20:11:57,587 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 20
+2018-03-25 20:11:57,587 [INFO] __main__: Generated new inital parameters
+2018-03-25 20:11:57,587 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-25 20:11:57,591 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 5 agents and working on estimating parameter view_radius with a resolution of 5
+2018-03-25 20:11:57,591 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 5, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-25 20:11:57,591 [INFO] src.champ: Initialized CHAMP with the following config
+2018-03-25 20:11:57,591 [INFO] src.champ: seg_length_mean: 20
+2018-03-25 20:11:57,592 [INFO] src.champ: seg_length_sigma: 10.0
+2018-03-25 20:11:57,592 [INFO] src.champ: seg_length_min: 5
+2018-03-25 20:11:57,592 [INFO] src.champ: max_particles: 1000
+2018-03-25 20:11:57,592 [INFO] src.champ: resamp_particles: 1000
+2018-03-25 20:11:57,616 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,616 [INFO] __main__: Results from CHAMP: {'models': [], 'paramestims': [], 'map': [], 'cpindices': [], 'theta': []}
+2018-03-25 20:11:57,616 [INFO] __main__: Main reported changepoint at [] from type 2 to 2
+2018-03-25 20:11:57,626 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,626 [INFO] __main__: Results from CHAMP: {'models': [], 'paramestims': [], 'map': [], 'cpindices': [], 'theta': []}
+2018-03-25 20:11:57,626 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,634 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,634 [INFO] __main__: Results from CHAMP: {'models': [], 'paramestims': [], 'map': [], 'cpindices': [], 'theta': []}
+2018-03-25 20:11:57,634 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,642 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,642 [INFO] __main__: Results from CHAMP: {'models': [], 'paramestims': [], 'map': [], 'cpindices': [], 'theta': []}
+2018-03-25 20:11:57,642 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,653 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,653 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,654 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6155955149916262], 'map': [-12.608070419631614], 'cpindices': [0], 'theta': [0.6598280337205454]}
+2018-03-25 20:11:57,654 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,664 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,665 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,665 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.584195880528579], 'map': [-13.85259580133295], 'cpindices': [0], 'theta': [0.6270283105346593]}
+2018-03-25 20:11:57,665 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,676 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,676 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,676 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6439714065796804], 'map': [-15.10712118303429], 'cpindices': [0], 'theta': [0.583281872887749]}
+2018-03-25 20:11:57,676 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,689 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,689 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,689 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.574952168230469], 'map': [-16.371646564735627], 'cpindices': [0], 'theta': [0.6336207496608158]}
+2018-03-25 20:11:57,689 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,704 [INFO] __main__: Item consumed at time step 8
+2018-03-25 20:11:57,704 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,704 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,704 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6565168904619934], 'map': [-17.64617194643696], 'cpindices': [0], 'theta': [0.6276656592965126]}
+2018-03-25 20:11:57,705 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,721 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,721 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,721 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6261156480746772], 'map': [-18.9306973281383], 'cpindices': [0], 'theta': [0.6154080914630071]}
+2018-03-25 20:11:57,721 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,743 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,743 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,743 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6383518915690896], 'map': [-20.225222709839635], 'cpindices': [0], 'theta': [0.6573883255035052]}
+2018-03-25 20:11:57,743 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,766 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,766 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,766 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5356966968713336], 'map': [-21.52974809154097], 'cpindices': [0], 'theta': [0.5614379732190579]}
+2018-03-25 20:11:57,766 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,797 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,798 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,798 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5947401574556783], 'map': [-22.844273473242307], 'cpindices': [0], 'theta': [0.6099994925721038]}
+2018-03-25 20:11:57,798 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,853 [INFO] __main__: Item consumed at time step 13
+2018-03-25 20:11:57,854 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,854 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,854 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5823408740895825], 'map': [-24.168798854943645], 'cpindices': [0], 'theta': [0.5927187896099836]}
+2018-03-25 20:11:57,854 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,902 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,902 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,902 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.602273151554731], 'map': [-25.50332423664498], 'cpindices': [0], 'theta': [0.5971787197662746]}
+2018-03-25 20:11:57,903 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,946 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,946 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,947 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5187514579261512], 'map': [-26.847849618346316], 'cpindices': [0], 'theta': [0.631718925950834]}
+2018-03-25 20:11:57,947 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:57,997 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:57,997 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:57,997 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5430300163593702], 'map': [-28.20237500004766], 'cpindices': [0], 'theta': [0.6634831907298167]}
+2018-03-25 20:11:57,997 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:58,055 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:58,055 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:58,055 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5770057304415129], 'map': [-29.566900381748997], 'cpindices': [0], 'theta': [0.5623684448700069]}
+2018-03-25 20:11:58,055 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:58,124 [INFO] __main__: Item consumed at time step 18
+2018-03-25 20:11:58,124 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:58,124 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:58,124 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6282035751358743], 'map': [-30.941425763450333], 'cpindices': [0], 'theta': [0.6150818459582826]}
+2018-03-25 20:11:58,124 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:58,196 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:58,196 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:58,197 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6326013499519945], 'map': [-32.32595114515167], 'cpindices': [0], 'theta': [0.6507885764053384]}
+2018-03-25 20:11:58,197 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:58,278 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:58,278 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:58,278 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6085384756993245], 'map': [-33.720476526853005], 'cpindices': [0], 'theta': [0.5873883660941362]}
+2018-03-25 20:11:58,278 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:58,367 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:58,367 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:58,367 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5605236918073195], 'map': [-35.12500190855434], 'cpindices': [0], 'theta': [0.6494757002465449]}
+2018-03-25 20:11:58,367 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:58,464 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:58,464 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:58,464 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6253332283399253], 'map': [-36.53952729025568], 'cpindices': [0], 'theta': [0.6571777100628452]}
+2018-03-25 20:11:58,464 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:58,570 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:58,570 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:58,570 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5726601248445168], 'map': [-37.964052671957006], 'cpindices': [0], 'theta': [0.6478601176213556]}
+2018-03-25 20:11:58,571 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:58,687 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:58,687 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:58,687 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.539615762629223], 'map': [-39.39857805365835], 'cpindices': [0], 'theta': [0.5330345854286118]}
+2018-03-25 20:11:58,687 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:58,819 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:58,819 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:58,819 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5586484738089651], 'map': [-40.84310343535969], 'cpindices': [0], 'theta': [0.6132427993527818]}
+2018-03-25 20:11:58,820 [INFO] __main__: Main reported changepoint at 0 from type 2 to 2
+2018-03-25 20:11:58,956 [INFO] __main__: Item consumed at time step 26
+2018-03-25 20:11:58,956 [INFO] __main__: Changepoint occured at 26 and agent 1 changed from type 2 to type 1 
+2018-03-25 20:11:58,956 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:58,956 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:58,956 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6463815000099277], 'map': [-42.29762881706103], 'cpindices': [0], 'theta': [0.6090444096654956]}
+2018-03-25 20:11:58,956 [INFO] __main__: Main reported changepoint at 26 from type 2 to 1
+2018-03-25 20:11:59,110 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:59,110 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:59,110 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6142419373595874], 'map': [-43.76215419876237], 'cpindices': [0], 'theta': [0.6080000099020525]}
+2018-03-25 20:11:59,110 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:11:59,274 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:59,274 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:59,274 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5458820680503947], 'map': [-45.23667958046371], 'cpindices': [0], 'theta': [0.626866313586239]}
+2018-03-25 20:11:59,274 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:11:59,448 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:59,449 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:59,449 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5857133476559965], 'map': [-46.72120496216505], 'cpindices': [0], 'theta': [0.5886096223365269]}
+2018-03-25 20:11:59,449 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:11:59,635 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:59,635 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:59,635 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6018924831790655], 'map': [-48.21573034386639], 'cpindices': [0], 'theta': [0.5280555170100094]}
+2018-03-25 20:11:59,635 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:11:59,869 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:11:59,870 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:11:59,870 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5802744574853854], 'map': [-49.720255725567725], 'cpindices': [0], 'theta': [0.6463875336520815]}
+2018-03-25 20:11:59,870 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:00,085 [INFO] __main__: Item consumed at time step 32
+2018-03-25 20:12:00,085 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:00,085 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:00,085 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6193275255519499], 'map': [-51.23478110726904], 'cpindices': [0], 'theta': [0.5576593623660863]}
+2018-03-25 20:12:00,085 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:00,322 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:00,322 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:00,322 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6132880046652516], 'map': [-52.75930648897039], 'cpindices': [0], 'theta': [0.5375485896204839]}
+2018-03-25 20:12:00,322 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:00,582 [INFO] __main__: Item consumed at time step 34
+2018-03-25 20:12:00,582 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:00,582 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:00,582 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6116880751750835], 'map': [-54.293831870671724], 'cpindices': [0], 'theta': [0.6236019072463675]}
+2018-03-25 20:12:00,582 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:00,846 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:00,846 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:00,846 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6286977840441947], 'map': [-55.838357252373065], 'cpindices': [0], 'theta': [0.6446829901772211]}
+2018-03-25 20:12:00,846 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:01,122 [INFO] __main__: Item consumed at time step 36
+2018-03-25 20:12:01,122 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:01,122 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:01,122 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.6402425113822859], 'map': [-57.392882634074404], 'cpindices': [0], 'theta': [0.6606573470795372]}
+2018-03-25 20:12:01,122 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:01,418 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:01,418 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:01,418 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.17119200837259316], 'map': [-58.95740801577575], 'cpindices': [0], 'theta': [0.5962752801829707]}
+2018-03-25 20:12:01,418 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:01,730 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:01,730 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:01,731 [INFO] __main__: Results from CHAMP: {'models': [0], 'paramestims': [0.5864499948934114], 'map': [-60.53193339747708], 'cpindices': [0], 'theta': [0.556050094263547]}
+2018-03-25 20:12:01,731 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:02,060 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:02,060 [INFO] src.champ: prev changepoint at: 17 and type is: 0
+2018-03-25 20:12:02,060 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:02,060 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.5910682966379106, 0.5430300163593702], 'map': [-61.94979969855689, -62.11645877917842], 'cpindices': [17, 0], 'theta': [0.6425411088788381, 0.6420909067656859]}
+2018-03-25 20:12:02,061 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:02,438 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:02,438 [INFO] src.champ: prev changepoint at: 17 and type is: 0
+2018-03-25 20:12:02,438 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:02,438 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.5840750525450709, 0.5430300163593702], 'map': [-63.31042470613883, -63.71098416087975], 'cpindices': [17, 0], 'theta': [0.6024620634896163, 0.5901686020346896]}
+2018-03-25 20:12:02,438 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:02,832 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:02,832 [INFO] src.champ: prev changepoint at: 17 and type is: 0
+2018-03-25 20:12:02,833 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:02,833 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.5725524457693291, 0.5430300163593702], 'map': [-64.68104971372078, -65.31550954258108], 'cpindices': [17, 0], 'theta': [0.5693803241648517, 0.5737888885200888]}
+2018-03-25 20:12:02,833 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:03,263 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:03,263 [INFO] src.champ: prev changepoint at: 19 and type is: 0
+2018-03-25 20:12:03,263 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:03,263 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.6375211098346657, 0.6282035751358743], 'map': [-66.0494754695415, -66.93003492428242], 'cpindices': [19, 0], 'theta': [0.5080844911003282, 0.5616285018097298]}
+2018-03-25 20:12:03,263 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:03,737 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:03,737 [INFO] src.champ: prev changepoint at: 19 and type is: 0
+2018-03-25 20:12:03,737 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:03,737 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.6419226222883683, 0.6282035751358743], 'map': [-67.42010047712346, -68.55456030598376], 'cpindices': [19, 0], 'theta': [0.5912291675376384, 0.6295833692189193]}
+2018-03-25 20:12:03,737 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:04,232 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:04,232 [INFO] src.champ: prev changepoint at: 19 and type is: 0
+2018-03-25 20:12:04,233 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:04,234 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.6228729820308095, 0.6282035751358743], 'map': [-68.80072548470541, -70.18908568768511], 'cpindices': [19, 0], 'theta': [0.6430483479591437, 0.6262189507964989]}
+2018-03-25 20:12:04,234 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:04,754 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:04,754 [INFO] src.champ: prev changepoint at: 19 and type is: 0
+2018-03-25 20:12:04,754 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:04,754 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.5763063645299269, 0.6282035751358743], 'map': [-70.19135049228736, -71.83361106938644], 'cpindices': [19, 0], 'theta': [0.6293816123273697, 0.5686659049474093]}
+2018-03-25 20:12:04,754 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:05,310 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:05,310 [INFO] src.champ: prev changepoint at: 21 and type is: 0
+2018-03-25 20:12:05,311 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:05,311 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.6161683304027394, 0.6085384756993245], 'map': [-71.57977624810809, -73.48813645108778], 'cpindices': [21, 0], 'theta': [0.5850493957854978, 0.6129723235127623]}
+2018-03-25 20:12:05,311 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:05,829 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:05,829 [INFO] src.champ: prev changepoint at: 21 and type is: 0
+2018-03-25 20:12:05,829 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:05,829 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.5662622165987994, 0.6085384756993245], 'map': [-72.97040125569004, -75.15266183278914], 'cpindices': [21, 0], 'theta': [0.580332251853651, 0.6390327494139056]}
+2018-03-25 20:12:05,829 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:06,362 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:06,362 [INFO] src.champ: prev changepoint at: 21 and type is: 0
+2018-03-25 20:12:06,362 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:06,362 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.5874477571000344, 0.6085384756993245], 'map': [-74.37102626327199, -76.82718721449045], 'cpindices': [21, 0], 'theta': [0.6061269391234086, 0.5790232227425758]}
+2018-03-25 20:12:06,362 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:06,920 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:06,920 [INFO] src.champ: prev changepoint at: 21 and type is: 0
+2018-03-25 20:12:06,920 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:06,920 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.6165133284069787, 0.6085384756993245], 'map': [-75.78165127085393, -78.51171259619178], 'cpindices': [21, 0], 'theta': [0.615546516278033, 0.6201227042248911]}
+2018-03-25 20:12:06,920 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:07,495 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:07,495 [INFO] src.champ: prev changepoint at: 23 and type is: 0
+2018-03-25 20:12:07,495 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:07,495 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.6338028112892503, 0.6253332283399253], 'map': [-77.19007702667466, -80.20623797789312], 'cpindices': [23, 0], 'theta': [0.6156658727888829, 0.6059035828603415]}
+2018-03-25 20:12:07,495 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1
+2018-03-25 20:12:08,103 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:08,103 [INFO] src.champ: prev changepoint at: 23 and type is: 0
+2018-03-25 20:12:08,103 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-25 20:12:08,103 [INFO] __main__: Results from CHAMP: {'models': [0, 0], 'paramestims': [0.5566897769150853, 0.6253332283399253], 'map': [-78.6007020342566, -81.91076335959445], 'cpindices': [23, 0], 'theta': [0.5718104620181167, 0.626206585801437]}
+2018-03-25 20:12:08,103 [INFO] __main__: Main reported changepoint at 0 from type 2 to 1

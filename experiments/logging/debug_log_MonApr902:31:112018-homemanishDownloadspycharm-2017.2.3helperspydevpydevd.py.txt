@@ -1,0 +1,21 @@
+2018-04-09 02:31:11,292 [INFO] cp-oracle1523259071: -----Experiment type cp-oracle ------ 
+2018-04-09 02:31:11,293 [INFO] cp-oracle1523259071: -----------------------------Experiment ID 1523259071 begins--------------------------
+2018-04-09 02:31:11,293 [INFO] cp-oracle1523259071: Configuration of the experiment: no_experiments: 1
+2018-04-09 02:31:11,293 [INFO] cp-oracle1523259071: Configurations of the experiment: n_max_iters_experiment: 100
+2018-04-09 02:31:11,293 [INFO] cp-oracle1523259071: Configurations of the experiment: n_agents: 4
+2018-04-09 02:31:11,294 [INFO] cp-oracle1523259071: Configurations of the experiment: n_agents_tracking: 1
+2018-04-09 02:31:11,294 [INFO] cp-oracle1523259071: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-04-09 02:31:11,295 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-04-09 02:31:11,302 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 28
+2018-04-09 02:31:11,302 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-04-09 02:31:11,314 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-04-09 02:31:11,314 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-04-09 02:31:11,315 [INFO] cp-oracle1523259071: iter 0 in experiment 0

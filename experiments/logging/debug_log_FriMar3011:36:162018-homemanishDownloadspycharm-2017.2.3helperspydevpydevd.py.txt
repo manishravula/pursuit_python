@@ -1,0 +1,151 @@
+2018-03-30 11:36:16,175 [INFO] nocp-wrongestim1522427776: -----Experiment type nocp-wrongestim ------ 
+2018-03-30 11:36:16,176 [INFO] nocp-wrongestim1522427776: -----------------------------Experiment ID 1522427776 begins--------------------------
+2018-03-30 11:36:16,176 [INFO] nocp-wrongestim1522427776: Configuration of the experiment: no_experiments: 2
+2018-03-30 11:36:16,176 [INFO] nocp-wrongestim1522427776: Configurations of the experiment: n_max_iters_experiment: 3
+2018-03-30 11:36:16,177 [INFO] nocp-wrongestim1522427776: Configurations of the experiment: n_agents: 4
+2018-03-30 11:36:16,177 [INFO] nocp-wrongestim1522427776: Configurations of the experiment: n_agents_tracking: 1
+2018-03-30 11:36:16,177 [INFO] nocp-wrongestim1522427776: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-03-30 11:36:16,179 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-03-30 11:36:16,186 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 9
+2018-03-30 11:36:16,187 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-30 11:36:16,197 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-03-30 11:36:16,197 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-30 11:36:16,197 [INFO] nocp-wrongestim1522427776: iter 0 in experiment 0
+2018-03-30 11:36:16,250 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-30 11:36:16,250 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-30 11:36:16,257 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-03-30 11:36:16,260 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-03-30 11:36:16,261 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-30 11:36:16,266 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-03-30 11:36:16,269 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-03-30 11:36:16,271 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-30 11:36:16,275 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-03-30 11:36:16,278 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-03-30 11:36:16,279 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-30 11:36:16,283 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-03-30 11:36:16,286 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-03-30 11:36:16,287 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-30 11:36:16,292 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-03-30 11:36:16,294 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-03-30 11:36:16,297 [INFO] nocp-wrongestim1522427776: iter 1 in experiment 0
+2018-03-30 11:36:16,338 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-30 11:36:16,338 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-30 11:36:16,343 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 2
+2018-03-30 11:36:16,344 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 2
+2018-03-30 11:36:16,344 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-30 11:36:16,349 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 2
+2018-03-30 11:36:16,350 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 2
+2018-03-30 11:36:16,351 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-30 11:36:16,356 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 2
+2018-03-30 11:36:16,357 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 2
+2018-03-30 11:36:16,358 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-30 11:36:16,363 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 2
+2018-03-30 11:36:16,364 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 2
+2018-03-30 11:36:16,365 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-30 11:36:16,370 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 2
+2018-03-30 11:36:16,371 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 2
+2018-03-30 11:36:16,374 [INFO] nocp-wrongestim1522427776: iter 2 in experiment 0
+2018-03-30 11:36:16,408 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-30 11:36:16,408 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-30 11:36:16,412 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 1
+2018-03-30 11:36:16,413 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 1
+2018-03-30 11:36:16,414 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-30 11:36:16,419 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 1
+2018-03-30 11:36:16,420 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 1
+2018-03-30 11:36:16,421 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-30 11:36:16,426 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 1
+2018-03-30 11:36:16,427 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 1
+2018-03-30 11:36:16,428 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-30 11:36:16,433 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 1
+2018-03-30 11:36:16,434 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 1
+2018-03-30 11:36:16,436 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-30 11:36:16,441 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 1
+2018-03-30 11:36:16,442 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 1
+2018-03-30 11:36:16,445 [INFO] root: result left_over_items, 9
+2018-03-30 11:36:16,445 [INFO] root: result tags, Namespace(mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='nocp-wrongestim')
+2018-03-30 11:36:16,446 [INFO] root: result game_length, 3
+2018-03-30 11:36:16,446 [INFO] root: result experimentID, 0
+2018-03-30 11:36:16,446 [INFO] root: result ini_number_items, 9
+2018-03-30 11:36:16,446 [INFO] nocp-wrongestim1522427776: End of expriment 0
+2018-03-30 11:36:16,446 [INFO] nocp-wrongestim1522427776: XXXXXXX                                                                         X   
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX         XX   
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X          X X   
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X            X   
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X            X   
+X        X  X  X      X      X   X     X   X    X X      X   XX    X            X   
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X          XXXXX 
+
+
+2018-03-30 11:36:16,447 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-03-30 11:36:16,452 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 10
+2018-03-30 11:36:16,453 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-30 11:36:16,460 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-03-30 11:36:16,460 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-30 11:36:16,461 [INFO] nocp-wrongestim1522427776: iter 0 in experiment 1
+2018-03-30 11:36:16,496 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-30 11:36:16,496 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-30 11:36:16,500 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-03-30 11:36:16,503 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-03-30 11:36:16,504 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-30 11:36:16,507 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-03-30 11:36:16,510 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-03-30 11:36:16,511 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-30 11:36:16,515 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-03-30 11:36:16,517 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-03-30 11:36:16,518 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-30 11:36:16,523 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-03-30 11:36:16,525 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-03-30 11:36:16,527 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-30 11:36:16,533 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-03-30 11:36:16,534 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-03-30 11:36:16,536 [INFO] nocp-wrongestim1522427776: iter 1 in experiment 1
+2018-03-30 11:36:16,573 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-30 11:36:16,573 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-30 11:36:16,577 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 2
+2018-03-30 11:36:16,578 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 2
+2018-03-30 11:36:16,579 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-30 11:36:16,584 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 2
+2018-03-30 11:36:16,586 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 2
+2018-03-30 11:36:16,587 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-30 11:36:16,591 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 2
+2018-03-30 11:36:16,592 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 2
+2018-03-30 11:36:16,593 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-30 11:36:16,598 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 2
+2018-03-30 11:36:16,600 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 2
+2018-03-30 11:36:16,601 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-30 11:36:16,606 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 2
+2018-03-30 11:36:16,608 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 2
+2018-03-30 11:36:16,611 [INFO] nocp-wrongestim1522427776: iter 2 in experiment 1
+2018-03-30 11:36:16,660 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-30 11:36:16,660 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-30 11:36:16,665 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 1
+2018-03-30 11:36:16,666 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 1
+2018-03-30 11:36:16,667 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-30 11:36:16,671 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 1
+2018-03-30 11:36:16,672 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 1
+2018-03-30 11:36:16,673 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-30 11:36:16,678 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 1
+2018-03-30 11:36:16,679 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 1
+2018-03-30 11:36:16,680 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-30 11:36:16,684 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 1
+2018-03-30 11:36:16,686 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 1
+2018-03-30 11:36:16,687 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-30 11:36:16,693 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 1
+2018-03-30 11:36:16,693 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 1
+2018-03-30 11:36:16,696 [INFO] root: result left_over_items, 10
+2018-03-30 11:36:16,696 [INFO] root: result tags, Namespace(mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='nocp-wrongestim')
+2018-03-30 11:36:16,696 [INFO] root: result game_length, 3
+2018-03-30 11:36:16,696 [INFO] root: result experimentID, 1
+2018-03-30 11:36:16,696 [INFO] root: result ini_number_items, 10
+2018-03-30 11:36:16,696 [INFO] nocp-wrongestim1522427776: End of expriment 1
+2018-03-30 11:36:16,767 [INFO] twilio.http_client: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages.json
+2018-03-30 11:36:16,768 [INFO] twilio.http_client: PAYLOAD: {'Body': "Experiments ID:1522427776 with args Namespace(mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='nocp-wrongestim') finished succesfully", 'To': '+15125022558', 'From': '+15126438645'}
+2018-03-30 11:36:17,102 [INFO] twilio.http_client: POST Response: 201 {"sid": "SM8964003b59b24b0a8fa5fd54adff89cd", "date_created": "Fri, 30 Mar 2018 16:36:17 +0000", "date_updated": "Fri, 30 Mar 2018 16:36:17 +0000", "date_sent": null, "account_sid": "AC03c6c74162a11f07ffb0170da406f3c2", "to": "+15125022558", "from": "+15126438645", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Experiments ID:1522427776 with args Namespace(mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='nocp-wrongestim') finished succesfully", "status": "queued", "num_segments": "2", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SM8964003b59b24b0a8fa5fd54adff89cd.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SM8964003b59b24b0a8fa5fd54adff89cd/Media.json"}}

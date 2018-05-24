@@ -1,0 +1,1253 @@
+2018-03-22 11:22:59,874 [INFO] nocp-correstim1521735779: -----Experiment type nocp-correstim ------ 
+2018-03-22 11:22:59,874 [INFO] nocp-correstim1521735779: -----------------------------Experiment ID 1521735779 begins--------------------------
+2018-03-22 11:22:59,874 [INFO] nocp-correstim1521735779: Configuration of the experiment: no_experiments: 2
+2018-03-22 11:22:59,875 [INFO] nocp-correstim1521735779: Configurations of the experiment: n_max_iters_experiment: 150
+2018-03-22 11:22:59,875 [INFO] nocp-correstim1521735779: Configurations of the experiment: n_agents: 4
+2018-03-22 11:22:59,875 [INFO] nocp-correstim1521735779: Configurations of the experiment: n_agents_tracking: 1
+2018-03-22 11:22:59,875 [INFO] nocp-correstim1521735779: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-03-22 11:22:59,875 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-03-22 11:22:59,881 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 9
+2018-03-22 11:22:59,881 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-22 11:22:59,888 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-03-22 11:22:59,888 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-22 11:22:59,888 [INFO] nocp-correstim1521735779: iter 0 in experiment 0
+2018-03-22 11:22:59,919 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:22:59,919 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:22:59,928 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:22:59,937 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:22:59,944 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:22:59,950 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:22:59,961 [INFO] nocp-correstim1521735779: iter 1 in experiment 0
+2018-03-22 11:23:00,005 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,005 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,010 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,016 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,022 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,028 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,035 [INFO] nocp-correstim1521735779: iter 2 in experiment 0
+2018-03-22 11:23:00,068 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,068 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,075 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,081 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,089 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,096 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,106 [INFO] nocp-correstim1521735779: iter 3 in experiment 0
+2018-03-22 11:23:00,132 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,133 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,138 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,144 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,150 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,156 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,163 [INFO] nocp-correstim1521735779: iter 4 in experiment 0
+2018-03-22 11:23:00,190 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,190 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,195 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,201 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,207 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,213 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,219 [INFO] nocp-correstim1521735779: iter 5 in experiment 0
+2018-03-22 11:23:00,243 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,243 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,250 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,257 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,262 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,269 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,276 [INFO] nocp-correstim1521735779: iter 6 in experiment 0
+2018-03-22 11:23:00,312 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,312 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,320 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,328 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,335 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,345 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,354 [INFO] nocp-correstim1521735779: iter 7 in experiment 0
+2018-03-22 11:23:00,388 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,388 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,394 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,400 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,409 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,416 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,425 [INFO] nocp-correstim1521735779: iter 8 in experiment 0
+2018-03-22 11:23:00,461 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,461 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,466 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,473 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,479 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,486 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,496 [INFO] nocp-correstim1521735779: iter 9 in experiment 0
+2018-03-22 11:23:00,534 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,534 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,541 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,547 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,555 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,562 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,572 [INFO] nocp-correstim1521735779: iter 10 in experiment 0
+2018-03-22 11:23:00,609 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,610 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,614 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,622 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,629 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,637 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,646 [INFO] nocp-correstim1521735779: iter 11 in experiment 0
+2018-03-22 11:23:00,693 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,693 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,699 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,705 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,711 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,717 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,723 [INFO] nocp-correstim1521735779: iter 12 in experiment 0
+2018-03-22 11:23:00,756 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,756 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,761 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,768 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,775 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,781 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,788 [INFO] nocp-correstim1521735779: iter 13 in experiment 0
+2018-03-22 11:23:00,824 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,825 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,829 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,835 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,840 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,846 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,854 [INFO] nocp-correstim1521735779: iter 14 in experiment 0
+2018-03-22 11:23:00,894 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:00,894 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:00,901 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:00,910 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:00,929 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:00,945 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:00,958 [INFO] nocp-correstim1521735779: iter 15 in experiment 0
+2018-03-22 11:23:01,010 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,010 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,016 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,022 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,028 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,034 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,040 [INFO] nocp-correstim1521735779: iter 16 in experiment 0
+2018-03-22 11:23:01,076 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,076 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,080 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,087 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,093 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,099 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,107 [INFO] nocp-correstim1521735779: iter 17 in experiment 0
+2018-03-22 11:23:01,144 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,144 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,150 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,158 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,163 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,172 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,179 [INFO] nocp-correstim1521735779: iter 18 in experiment 0
+2018-03-22 11:23:01,226 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,226 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,230 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,238 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,245 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,253 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,261 [INFO] nocp-correstim1521735779: iter 19 in experiment 0
+2018-03-22 11:23:01,309 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,310 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,314 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,322 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,328 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,336 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,344 [INFO] nocp-correstim1521735779: iter 20 in experiment 0
+2018-03-22 11:23:01,390 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,391 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,395 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,401 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,408 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,413 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,422 [INFO] nocp-correstim1521735779: iter 21 in experiment 0
+2018-03-22 11:23:01,465 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,466 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,470 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,475 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,479 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,485 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,493 [INFO] root: result left_over_items, 0
+2018-03-22 11:23:01,493 [INFO] root: result tags, Namespace(mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='nocp-correstim')
+2018-03-22 11:23:01,493 [INFO] root: result game_length, 22
+2018-03-22 11:23:01,493 [INFO] root: result experimentID, 0
+2018-03-22 11:23:01,493 [INFO] root: result ini_number_items, 9
+2018-03-22 11:23:01,493 [INFO] nocp-correstim1521735779: End of expriment 0
+2018-03-22 11:23:01,493 [INFO] nocp-correstim1521735779: XXXXXXX                                                                         X   
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX         XX   
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X          X X   
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X            X   
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X            X   
+X        X  X  X      X      X   X     X   X    X X      X   XX    X            X   
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X          XXXXX 
+
+
+2018-03-22 11:23:01,495 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-03-22 11:23:01,498 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 10
+2018-03-22 11:23:01,498 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-22 11:23:01,505 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-03-22 11:23:01,505 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-22 11:23:01,506 [INFO] nocp-correstim1521735779: iter 0 in experiment 1
+2018-03-22 11:23:01,541 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,541 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,545 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,551 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,558 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,563 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,573 [INFO] nocp-correstim1521735779: iter 1 in experiment 1
+2018-03-22 11:23:01,598 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,598 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,605 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,610 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,616 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,623 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,630 [INFO] nocp-correstim1521735779: iter 2 in experiment 1
+2018-03-22 11:23:01,656 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,656 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,662 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,668 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,676 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,681 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,691 [INFO] nocp-correstim1521735779: iter 3 in experiment 1
+2018-03-22 11:23:01,719 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,719 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,725 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,730 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,738 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,744 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,752 [INFO] nocp-correstim1521735779: iter 4 in experiment 1
+2018-03-22 11:23:01,778 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,778 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,782 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,787 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,792 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,798 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,806 [INFO] nocp-correstim1521735779: iter 5 in experiment 1
+2018-03-22 11:23:01,830 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,830 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,835 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,840 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,846 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,854 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,860 [INFO] nocp-correstim1521735779: iter 6 in experiment 1
+2018-03-22 11:23:01,888 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,888 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,893 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,898 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,904 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,910 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,917 [INFO] nocp-correstim1521735779: iter 7 in experiment 1
+2018-03-22 11:23:01,947 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:01,947 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:01,954 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:01,961 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:01,968 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:01,974 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:01,981 [INFO] nocp-correstim1521735779: iter 8 in experiment 1
+2018-03-22 11:23:02,009 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,009 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,013 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,018 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,024 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,029 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,036 [INFO] nocp-correstim1521735779: iter 9 in experiment 1
+2018-03-22 11:23:02,065 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,065 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,070 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,075 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,080 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,086 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,093 [INFO] nocp-correstim1521735779: iter 10 in experiment 1
+2018-03-22 11:23:02,122 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,122 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,127 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,133 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,138 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,144 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,151 [INFO] nocp-correstim1521735779: iter 11 in experiment 1
+2018-03-22 11:23:02,194 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,194 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,200 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,208 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,215 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,224 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,233 [INFO] nocp-correstim1521735779: iter 12 in experiment 1
+2018-03-22 11:23:02,281 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,281 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,288 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,296 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,303 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,312 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,321 [INFO] nocp-correstim1521735779: iter 13 in experiment 1
+2018-03-22 11:23:02,371 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,371 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,376 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,380 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,386 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,391 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,399 [INFO] nocp-correstim1521735779: iter 14 in experiment 1
+2018-03-22 11:23:02,433 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,434 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,439 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,444 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,449 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,455 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,462 [INFO] nocp-correstim1521735779: iter 15 in experiment 1
+2018-03-22 11:23:02,496 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,496 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,501 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,505 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,510 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,516 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,522 [INFO] nocp-correstim1521735779: iter 16 in experiment 1
+2018-03-22 11:23:02,557 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,557 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,561 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,567 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,573 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,578 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,585 [INFO] nocp-correstim1521735779: iter 17 in experiment 1
+2018-03-22 11:23:02,627 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,627 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,632 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,637 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,642 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,647 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,653 [INFO] nocp-correstim1521735779: iter 18 in experiment 1
+2018-03-22 11:23:02,692 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,692 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,696 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,701 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,707 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,712 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,718 [INFO] nocp-correstim1521735779: iter 19 in experiment 1
+2018-03-22 11:23:02,758 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,758 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,762 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,769 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,775 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,780 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,787 [INFO] nocp-correstim1521735779: iter 20 in experiment 1
+2018-03-22 11:23:02,823 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,823 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,827 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,832 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,840 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,848 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,857 [INFO] nocp-correstim1521735779: iter 21 in experiment 1
+2018-03-22 11:23:02,893 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,893 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,897 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,902 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,907 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,912 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,917 [INFO] nocp-correstim1521735779: iter 22 in experiment 1
+2018-03-22 11:23:02,960 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:02,960 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:02,964 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:02,970 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:02,975 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:02,980 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:02,986 [INFO] nocp-correstim1521735779: iter 23 in experiment 1
+2018-03-22 11:23:03,023 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,023 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,027 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,032 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,036 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,042 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,048 [INFO] nocp-correstim1521735779: iter 24 in experiment 1
+2018-03-22 11:23:03,087 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,087 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,091 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,095 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,100 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,105 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,111 [INFO] nocp-correstim1521735779: iter 25 in experiment 1
+2018-03-22 11:23:03,156 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,156 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,160 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,165 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,173 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,178 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,185 [INFO] nocp-correstim1521735779: iter 26 in experiment 1
+2018-03-22 11:23:03,233 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,233 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,240 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,245 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,252 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,260 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,267 [INFO] nocp-correstim1521735779: iter 27 in experiment 1
+2018-03-22 11:23:03,317 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,318 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,324 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,328 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,334 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,341 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,347 [INFO] nocp-correstim1521735779: iter 28 in experiment 1
+2018-03-22 11:23:03,388 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,389 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,393 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,397 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,402 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,408 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,413 [INFO] nocp-correstim1521735779: iter 29 in experiment 1
+2018-03-22 11:23:03,456 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,456 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,463 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,469 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,474 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,479 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,485 [INFO] nocp-correstim1521735779: iter 30 in experiment 1
+2018-03-22 11:23:03,526 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,527 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,531 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,535 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,540 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,545 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,553 [INFO] nocp-correstim1521735779: iter 31 in experiment 1
+2018-03-22 11:23:03,598 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,598 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,602 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,607 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,612 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,617 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,622 [INFO] nocp-correstim1521735779: iter 32 in experiment 1
+2018-03-22 11:23:03,666 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,667 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,672 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,677 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,682 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,688 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,694 [INFO] nocp-correstim1521735779: iter 33 in experiment 1
+2018-03-22 11:23:03,742 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,742 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,746 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,751 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,756 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,761 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,768 [INFO] nocp-correstim1521735779: iter 34 in experiment 1
+2018-03-22 11:23:03,813 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,813 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,817 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,822 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,826 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,831 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,837 [INFO] nocp-correstim1521735779: iter 35 in experiment 1
+2018-03-22 11:23:03,885 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,885 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,890 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,894 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,899 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,904 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,910 [INFO] nocp-correstim1521735779: iter 36 in experiment 1
+2018-03-22 11:23:03,956 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:03,956 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:03,960 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:03,965 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:03,971 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:03,976 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:03,982 [INFO] nocp-correstim1521735779: iter 37 in experiment 1
+2018-03-22 11:23:04,031 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,031 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,037 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,043 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,047 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,055 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,061 [INFO] nocp-correstim1521735779: iter 38 in experiment 1
+2018-03-22 11:23:04,109 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,109 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,113 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,118 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,123 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,129 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,136 [INFO] nocp-correstim1521735779: iter 39 in experiment 1
+2018-03-22 11:23:04,190 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,191 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,194 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,200 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,205 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,210 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,216 [INFO] nocp-correstim1521735779: iter 40 in experiment 1
+2018-03-22 11:23:04,265 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,265 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,270 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,274 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,279 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,284 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,290 [INFO] nocp-correstim1521735779: iter 41 in experiment 1
+2018-03-22 11:23:04,347 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,348 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,354 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,360 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,364 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,370 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,377 [INFO] nocp-correstim1521735779: iter 42 in experiment 1
+2018-03-22 11:23:04,427 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,427 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,431 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,438 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,444 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,450 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,458 [INFO] nocp-correstim1521735779: iter 43 in experiment 1
+2018-03-22 11:23:04,507 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,507 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,511 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,515 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,520 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,525 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,530 [INFO] nocp-correstim1521735779: iter 44 in experiment 1
+2018-03-22 11:23:04,584 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,584 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,588 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,592 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,597 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,604 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,610 [INFO] nocp-correstim1521735779: iter 45 in experiment 1
+2018-03-22 11:23:04,664 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,664 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,668 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,673 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,678 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,683 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,690 [INFO] nocp-correstim1521735779: iter 46 in experiment 1
+2018-03-22 11:23:04,743 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,743 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,747 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,752 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,757 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,761 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,767 [INFO] nocp-correstim1521735779: iter 47 in experiment 1
+2018-03-22 11:23:04,826 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,826 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,830 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,837 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,842 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,847 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,855 [INFO] nocp-correstim1521735779: iter 48 in experiment 1
+2018-03-22 11:23:04,916 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,916 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:04,920 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:04,925 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:04,929 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:04,935 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:04,941 [INFO] nocp-correstim1521735779: iter 49 in experiment 1
+2018-03-22 11:23:04,996 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:04,996 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,001 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,007 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,012 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:05,017 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:05,023 [INFO] nocp-correstim1521735779: iter 50 in experiment 1
+2018-03-22 11:23:05,081 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:05,081 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,086 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,091 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,095 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:05,100 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:05,107 [INFO] nocp-correstim1521735779: iter 51 in experiment 1
+2018-03-22 11:23:05,169 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:05,169 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,173 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,178 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,184 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:05,191 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:05,196 [INFO] nocp-correstim1521735779: iter 52 in experiment 1
+2018-03-22 11:23:05,263 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:05,263 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,267 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,272 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,276 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:05,281 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:05,287 [INFO] nocp-correstim1521735779: iter 53 in experiment 1
+2018-03-22 11:23:05,356 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:05,356 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,360 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,364 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,369 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:05,374 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:05,379 [INFO] nocp-correstim1521735779: iter 54 in experiment 1
+2018-03-22 11:23:05,439 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:05,439 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,443 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,448 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,453 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:05,458 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:05,464 [INFO] nocp-correstim1521735779: iter 55 in experiment 1
+2018-03-22 11:23:05,524 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:05,524 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,528 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,533 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,538 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:05,543 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:05,548 [INFO] nocp-correstim1521735779: iter 56 in experiment 1
+2018-03-22 11:23:05,609 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:05,609 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,613 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,617 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,622 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:05,628 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:05,637 [INFO] nocp-correstim1521735779: iter 57 in experiment 1
+2018-03-22 11:23:05,712 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:05,712 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,716 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,720 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,725 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:05,730 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:05,737 [INFO] nocp-correstim1521735779: iter 58 in experiment 1
+2018-03-22 11:23:05,801 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:05,801 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,805 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,810 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,814 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:05,820 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:05,826 [INFO] nocp-correstim1521735779: iter 59 in experiment 1
+2018-03-22 11:23:05,890 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:05,890 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,894 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,899 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,904 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:05,909 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:05,914 [INFO] nocp-correstim1521735779: iter 60 in experiment 1
+2018-03-22 11:23:05,980 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:05,980 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:05,985 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:05,990 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:05,995 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:06,000 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:06,007 [INFO] nocp-correstim1521735779: iter 61 in experiment 1
+2018-03-22 11:23:06,074 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:06,074 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:06,078 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:06,084 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:06,089 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:06,095 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:06,101 [INFO] nocp-correstim1521735779: iter 62 in experiment 1
+2018-03-22 11:23:06,173 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:06,173 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:06,177 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:06,181 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:06,187 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:06,196 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:06,205 [INFO] nocp-correstim1521735779: iter 63 in experiment 1
+2018-03-22 11:23:06,279 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:06,279 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:06,284 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:06,291 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:06,295 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:06,302 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:06,309 [INFO] nocp-correstim1521735779: iter 64 in experiment 1
+2018-03-22 11:23:06,375 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:06,375 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:06,379 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:06,384 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:06,389 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:06,394 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:06,400 [INFO] nocp-correstim1521735779: iter 65 in experiment 1
+2018-03-22 11:23:06,464 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:06,464 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:06,469 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:06,473 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:06,477 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:06,482 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:06,488 [INFO] nocp-correstim1521735779: iter 66 in experiment 1
+2018-03-22 11:23:06,553 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:06,553 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:06,557 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:06,561 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:06,565 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:06,570 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:06,576 [INFO] nocp-correstim1521735779: iter 67 in experiment 1
+2018-03-22 11:23:06,644 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:06,644 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:06,648 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:06,653 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:06,658 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:06,662 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:06,668 [INFO] nocp-correstim1521735779: iter 68 in experiment 1
+2018-03-22 11:23:06,740 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:06,740 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:06,744 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:06,749 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:06,754 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:06,759 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:06,764 [INFO] nocp-correstim1521735779: iter 69 in experiment 1
+2018-03-22 11:23:06,833 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:06,833 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:06,837 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:06,841 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:06,847 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:06,854 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:06,860 [INFO] nocp-correstim1521735779: iter 70 in experiment 1
+2018-03-22 11:23:06,936 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:06,936 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:06,942 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:06,946 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:06,953 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:06,960 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:06,966 [INFO] nocp-correstim1521735779: iter 71 in experiment 1
+2018-03-22 11:23:07,042 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:07,042 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:07,046 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:07,052 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:07,058 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:07,063 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:07,071 [INFO] nocp-correstim1521735779: iter 72 in experiment 1
+2018-03-22 11:23:07,148 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:07,148 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:07,152 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:07,157 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:07,161 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:07,168 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:07,174 [INFO] nocp-correstim1521735779: iter 73 in experiment 1
+2018-03-22 11:23:07,247 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:07,247 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:07,254 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:07,259 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:07,264 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:07,269 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:07,275 [INFO] nocp-correstim1521735779: iter 74 in experiment 1
+2018-03-22 11:23:07,349 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:07,349 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:07,353 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:07,358 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:07,362 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:07,369 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:07,375 [INFO] nocp-correstim1521735779: iter 75 in experiment 1
+2018-03-22 11:23:07,452 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:07,453 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:07,459 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:07,463 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:07,470 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:07,477 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:07,483 [INFO] nocp-correstim1521735779: iter 76 in experiment 1
+2018-03-22 11:23:07,566 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:07,566 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:07,571 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:07,576 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:07,580 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:07,586 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:07,592 [INFO] nocp-correstim1521735779: iter 77 in experiment 1
+2018-03-22 11:23:07,687 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:07,688 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:07,694 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:07,699 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:07,707 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:07,712 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:07,720 [INFO] nocp-correstim1521735779: iter 78 in experiment 1
+2018-03-22 11:23:07,806 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:07,806 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:07,811 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:07,815 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:07,820 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:07,825 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:07,831 [INFO] nocp-correstim1521735779: iter 79 in experiment 1
+2018-03-22 11:23:07,919 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:07,919 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:07,923 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:07,927 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:07,933 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:07,938 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:07,944 [INFO] nocp-correstim1521735779: iter 80 in experiment 1
+2018-03-22 11:23:08,026 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:08,026 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:08,030 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:08,037 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:08,043 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:08,047 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:08,054 [INFO] nocp-correstim1521735779: iter 81 in experiment 1
+2018-03-22 11:23:08,138 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:08,138 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:08,143 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:08,147 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:08,155 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:08,161 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:08,168 [INFO] nocp-correstim1521735779: iter 82 in experiment 1
+2018-03-22 11:23:08,271 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:08,271 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:08,276 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:08,280 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:08,288 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:08,294 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:08,301 [INFO] nocp-correstim1521735779: iter 83 in experiment 1
+2018-03-22 11:23:08,388 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:08,388 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:08,392 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:08,396 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:08,402 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:08,409 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:08,417 [INFO] nocp-correstim1521735779: iter 84 in experiment 1
+2018-03-22 11:23:08,518 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:08,518 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:08,522 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:08,526 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:08,531 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:08,539 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:08,546 [INFO] nocp-correstim1521735779: iter 85 in experiment 1
+2018-03-22 11:23:08,642 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:08,642 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:08,646 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:08,652 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:08,659 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:08,664 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:08,672 [INFO] nocp-correstim1521735779: iter 86 in experiment 1
+2018-03-22 11:23:08,781 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:08,781 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:08,788 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:08,794 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:08,798 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:08,806 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:08,813 [INFO] nocp-correstim1521735779: iter 87 in experiment 1
+2018-03-22 11:23:08,920 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:08,920 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:08,926 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:08,930 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:08,938 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:08,943 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:08,949 [INFO] nocp-correstim1521735779: iter 88 in experiment 1
+2018-03-22 11:23:09,044 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:09,044 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:09,049 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:09,055 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:09,061 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:09,067 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:09,075 [INFO] nocp-correstim1521735779: iter 89 in experiment 1
+2018-03-22 11:23:09,186 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:09,187 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:09,192 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:09,196 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:09,203 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:09,210 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:09,216 [INFO] nocp-correstim1521735779: iter 90 in experiment 1
+2018-03-22 11:23:09,320 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:09,320 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:09,325 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:09,330 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:09,337 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:09,343 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:09,350 [INFO] nocp-correstim1521735779: iter 91 in experiment 1
+2018-03-22 11:23:09,441 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:09,441 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:09,446 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:09,450 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:09,455 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:09,461 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:09,466 [INFO] nocp-correstim1521735779: iter 92 in experiment 1
+2018-03-22 11:23:09,553 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:09,554 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:09,558 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:09,562 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:09,567 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:09,572 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:09,578 [INFO] nocp-correstim1521735779: iter 93 in experiment 1
+2018-03-22 11:23:09,669 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:09,669 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:09,673 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:09,677 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:09,682 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:09,688 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:09,694 [INFO] nocp-correstim1521735779: iter 94 in experiment 1
+2018-03-22 11:23:09,786 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:09,787 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:09,791 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:09,796 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:09,801 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:09,806 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:09,812 [INFO] nocp-correstim1521735779: iter 95 in experiment 1
+2018-03-22 11:23:09,908 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:09,908 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:09,912 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:09,917 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:09,922 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:09,927 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:09,933 [INFO] nocp-correstim1521735779: iter 96 in experiment 1
+2018-03-22 11:23:10,030 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:10,030 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:10,037 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:10,044 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:10,048 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:10,054 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:10,060 [INFO] nocp-correstim1521735779: iter 97 in experiment 1
+2018-03-22 11:23:10,152 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:10,152 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:10,156 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:10,161 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:10,167 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:10,173 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:10,178 [INFO] nocp-correstim1521735779: iter 98 in experiment 1
+2018-03-22 11:23:10,274 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:10,274 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:10,278 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:10,283 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:10,288 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:10,294 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:10,300 [INFO] nocp-correstim1521735779: iter 99 in experiment 1
+2018-03-22 11:23:10,438 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:10,438 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:10,443 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:10,448 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:10,455 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:10,460 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:10,466 [INFO] nocp-correstim1521735779: iter 100 in experiment 1
+2018-03-22 11:23:10,560 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:10,560 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:10,564 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:10,570 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:10,575 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:10,579 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:10,588 [INFO] nocp-correstim1521735779: iter 101 in experiment 1
+2018-03-22 11:23:10,700 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:10,701 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:10,705 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:10,710 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:10,715 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:10,722 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:10,728 [INFO] nocp-correstim1521735779: iter 102 in experiment 1
+2018-03-22 11:23:10,828 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:10,828 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:10,834 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:10,840 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:10,845 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:10,851 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:10,858 [INFO] nocp-correstim1521735779: iter 103 in experiment 1
+2018-03-22 11:23:10,980 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:10,980 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:10,984 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:10,989 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:10,993 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:10,999 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:11,005 [INFO] nocp-correstim1521735779: iter 104 in experiment 1
+2018-03-22 11:23:11,109 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:11,110 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:11,113 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:11,118 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:11,124 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:11,129 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:11,138 [INFO] nocp-correstim1521735779: iter 105 in experiment 1
+2018-03-22 11:23:11,254 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:11,254 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:11,260 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:11,264 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:11,269 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:11,274 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:11,279 [INFO] nocp-correstim1521735779: iter 106 in experiment 1
+2018-03-22 11:23:11,382 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:11,383 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:11,387 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:11,392 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:11,396 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:11,403 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:11,409 [INFO] nocp-correstim1521735779: iter 107 in experiment 1
+2018-03-22 11:23:11,515 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:11,515 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:11,520 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:11,524 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:11,529 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:11,534 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:11,541 [INFO] nocp-correstim1521735779: iter 108 in experiment 1
+2018-03-22 11:23:11,641 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:11,641 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:11,645 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:11,652 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:11,656 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:11,661 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:11,668 [INFO] nocp-correstim1521735779: iter 109 in experiment 1
+2018-03-22 11:23:11,771 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:11,772 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:11,776 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:11,780 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:11,785 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:11,791 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:11,796 [INFO] nocp-correstim1521735779: iter 110 in experiment 1
+2018-03-22 11:23:11,898 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:11,898 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:11,903 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:11,907 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:11,912 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:11,917 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:11,924 [INFO] nocp-correstim1521735779: iter 111 in experiment 1
+2018-03-22 11:23:12,046 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:12,046 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:12,051 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:12,059 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:12,063 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:12,072 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:12,079 [INFO] nocp-correstim1521735779: iter 112 in experiment 1
+2018-03-22 11:23:12,215 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:12,216 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:12,222 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:12,227 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:12,232 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:12,238 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:12,245 [INFO] nocp-correstim1521735779: iter 113 in experiment 1
+2018-03-22 11:23:12,356 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:12,357 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:12,360 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:12,365 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:12,370 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:12,375 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:12,380 [INFO] nocp-correstim1521735779: iter 114 in experiment 1
+2018-03-22 11:23:12,481 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:12,481 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:12,485 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:12,490 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:12,494 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:12,499 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:12,505 [INFO] nocp-correstim1521735779: iter 115 in experiment 1
+2018-03-22 11:23:12,608 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:12,608 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:12,612 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:12,616 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:12,621 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:12,626 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:12,632 [INFO] nocp-correstim1521735779: iter 116 in experiment 1
+2018-03-22 11:23:12,738 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:12,739 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:12,743 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:12,747 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:12,752 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:12,757 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:12,763 [INFO] nocp-correstim1521735779: iter 117 in experiment 1
+2018-03-22 11:23:12,890 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:12,890 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:12,896 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:12,900 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:12,905 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:12,910 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:12,915 [INFO] nocp-correstim1521735779: iter 118 in experiment 1
+2018-03-22 11:23:13,029 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:13,029 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:13,033 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:13,038 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:13,043 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:13,048 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:13,054 [INFO] nocp-correstim1521735779: iter 119 in experiment 1
+2018-03-22 11:23:13,176 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:13,176 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:13,180 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:13,187 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:13,193 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:13,199 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:13,207 [INFO] nocp-correstim1521735779: iter 120 in experiment 1
+2018-03-22 11:23:13,325 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:13,326 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:13,330 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:13,336 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:13,343 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:13,348 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:13,357 [INFO] nocp-correstim1521735779: iter 121 in experiment 1
+2018-03-22 11:23:13,469 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:13,469 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:13,474 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:13,478 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:13,483 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:13,488 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:13,494 [INFO] nocp-correstim1521735779: iter 122 in experiment 1
+2018-03-22 11:23:13,613 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:13,613 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:13,617 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:13,622 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:13,627 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:13,633 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:13,639 [INFO] nocp-correstim1521735779: iter 123 in experiment 1
+2018-03-22 11:23:13,776 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:13,776 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:13,781 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:13,788 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:13,794 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:13,800 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:13,808 [INFO] nocp-correstim1521735779: iter 124 in experiment 1
+2018-03-22 11:23:13,923 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:13,923 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:13,927 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:13,931 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:13,936 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:13,941 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:13,947 [INFO] nocp-correstim1521735779: iter 125 in experiment 1
+2018-03-22 11:23:14,062 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:14,062 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:14,066 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:14,071 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:14,076 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:14,080 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:14,087 [INFO] nocp-correstim1521735779: iter 126 in experiment 1
+2018-03-22 11:23:14,215 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:14,215 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:14,219 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:14,224 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:14,229 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:14,234 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:14,240 [INFO] nocp-correstim1521735779: iter 127 in experiment 1
+2018-03-22 11:23:14,357 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:14,357 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:14,361 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:14,366 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:14,371 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:14,377 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:14,383 [INFO] nocp-correstim1521735779: iter 128 in experiment 1
+2018-03-22 11:23:14,506 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:14,506 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:14,510 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:14,514 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:14,519 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:14,525 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:14,530 [INFO] nocp-correstim1521735779: iter 129 in experiment 1
+2018-03-22 11:23:14,653 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:14,653 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:14,657 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:14,661 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:14,667 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:14,672 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:14,678 [INFO] nocp-correstim1521735779: iter 130 in experiment 1
+2018-03-22 11:23:14,814 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:14,814 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:14,818 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:14,823 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:14,827 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:14,832 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:14,839 [INFO] nocp-correstim1521735779: iter 131 in experiment 1
+2018-03-22 11:23:14,956 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:14,956 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:14,962 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:14,968 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:14,973 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:14,978 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:14,984 [INFO] nocp-correstim1521735779: iter 132 in experiment 1
+2018-03-22 11:23:15,121 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:15,121 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:15,125 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:15,131 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:15,136 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:15,141 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:15,147 [INFO] nocp-correstim1521735779: iter 133 in experiment 1
+2018-03-22 11:23:15,271 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:15,271 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:15,276 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:15,280 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:15,286 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:15,291 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:15,297 [INFO] nocp-correstim1521735779: iter 134 in experiment 1
+2018-03-22 11:23:15,437 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:15,437 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:15,441 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:15,446 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:15,450 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:15,455 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:15,462 [INFO] nocp-correstim1521735779: iter 135 in experiment 1
+2018-03-22 11:23:15,584 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:15,584 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:15,589 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:15,593 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:15,598 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:15,603 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:15,609 [INFO] nocp-correstim1521735779: iter 136 in experiment 1
+2018-03-22 11:23:15,738 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:15,738 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:15,742 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:15,747 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:15,753 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:15,758 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:15,764 [INFO] nocp-correstim1521735779: iter 137 in experiment 1
+2018-03-22 11:23:15,906 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:15,906 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:15,910 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:15,915 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:15,922 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:15,928 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:15,936 [INFO] nocp-correstim1521735779: iter 138 in experiment 1
+2018-03-22 11:23:16,078 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:16,078 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:16,083 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:16,088 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:16,093 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:16,098 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:16,104 [INFO] nocp-correstim1521735779: iter 139 in experiment 1
+2018-03-22 11:23:16,237 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:16,237 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:16,241 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:16,245 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:16,253 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:16,259 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:16,265 [INFO] nocp-correstim1521735779: iter 140 in experiment 1
+2018-03-22 11:23:16,389 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:16,389 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:16,393 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:16,397 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:16,405 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:16,411 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:16,417 [INFO] nocp-correstim1521735779: iter 141 in experiment 1
+2018-03-22 11:23:16,574 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:16,574 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:16,578 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:16,584 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:16,589 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:16,594 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:16,600 [INFO] nocp-correstim1521735779: iter 142 in experiment 1
+2018-03-22 11:23:16,744 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:16,744 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:16,750 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:16,757 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:16,762 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:16,769 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:16,775 [INFO] nocp-correstim1521735779: iter 143 in experiment 1
+2018-03-22 11:23:16,910 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:16,910 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:16,914 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:16,919 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:16,924 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:16,929 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:16,937 [INFO] nocp-correstim1521735779: iter 144 in experiment 1
+2018-03-22 11:23:17,089 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:17,089 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:17,094 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:17,098 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:17,103 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:17,108 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:17,114 [INFO] nocp-correstim1521735779: iter 145 in experiment 1
+2018-03-22 11:23:17,263 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:17,263 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:17,268 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:17,275 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:17,280 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:17,287 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:17,294 [INFO] nocp-correstim1521735779: iter 146 in experiment 1
+2018-03-22 11:23:17,429 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:17,429 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:17,433 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:17,438 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:17,443 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:17,448 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:17,454 [INFO] nocp-correstim1521735779: iter 147 in experiment 1
+2018-03-22 11:23:17,590 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:17,590 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:17,594 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:17,599 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:17,605 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:17,610 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:17,615 [INFO] nocp-correstim1521735779: iter 148 in experiment 1
+2018-03-22 11:23:17,749 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:17,749 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:17,755 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:17,760 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:17,766 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:17,772 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:17,778 [INFO] nocp-correstim1521735779: iter 149 in experiment 1
+2018-03-22 11:23:17,920 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-22 11:23:17,921 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-22 11:23:17,926 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-22 11:23:17,930 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-22 11:23:17,935 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-22 11:23:17,940 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-22 11:23:17,945 [INFO] root: result left_over_items, 9
+2018-03-22 11:23:17,945 [INFO] root: result tags, Namespace(mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='nocp-correstim')
+2018-03-22 11:23:17,945 [INFO] root: result game_length, 150
+2018-03-22 11:23:17,945 [INFO] root: result experimentID, 1
+2018-03-22 11:23:17,945 [INFO] root: result ini_number_items, 10
+2018-03-22 11:23:17,945 [INFO] nocp-correstim1521735779: End of expriment 1
+2018-03-22 11:23:17,961 [INFO] twilio.http_client: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages.json
+2018-03-22 11:23:17,961 [INFO] twilio.http_client: PAYLOAD: {'Body': "Experiments ID:1521735779 with args Namespace(mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='nocp-correstim') finished succesfully", 'To': '+15125022558', 'From': '+15126438645'}
+2018-03-22 11:23:18,336 [INFO] twilio.http_client: POST Response: 201 {"sid": "SMec0da72dc476406e9d20c645a24217d4", "date_created": "Thu, 22 Mar 2018 16:23:18 +0000", "date_updated": "Thu, 22 Mar 2018 16:23:18 +0000", "date_sent": null, "account_sid": "AC03c6c74162a11f07ffb0170da406f3c2", "to": "+15125022558", "from": "+15126438645", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Experiments ID:1521735779 with args Namespace(mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='nocp-correstim') finished succesfully", "status": "queued", "num_segments": "2", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SMec0da72dc476406e9d20c645a24217d4.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SMec0da72dc476406e9d20c645a24217d4/Media.json"}}

@@ -1,0 +1,35 @@
+2018-04-09 02:38:56,975 [INFO] cp-oracle1523259536: -----Experiment type cp-oracle ------ 
+2018-04-09 02:38:56,976 [INFO] cp-oracle1523259536: -----------------------------Experiment ID 1523259536 begins--------------------------
+2018-04-09 02:38:56,977 [INFO] cp-oracle1523259536: Configuration of the experiment: no_experiments: 1
+2018-04-09 02:38:56,977 [INFO] cp-oracle1523259536: Configurations of the experiment: n_max_iters_experiment: 100
+2018-04-09 02:38:56,977 [INFO] cp-oracle1523259536: Configurations of the experiment: n_agents: 4
+2018-04-09 02:38:56,977 [INFO] cp-oracle1523259536: Configurations of the experiment: n_agents_tracking: 1
+2018-04-09 02:38:56,978 [INFO] cp-oracle1523259536: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-04-09 02:38:56,979 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-04-09 02:38:56,987 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 28
+2018-04-09 02:38:56,987 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-04-09 02:38:56,997 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-04-09 02:38:56,998 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-04-09 02:38:56,998 [INFO] cp-oracle1523259536: iter 0 in experiment 0
+2018-04-09 02:39:07,144 [ERROR] root: Experiment failed
+Traceback (most recent call last):
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/experiments/experiment_master_cp.py", line 187, in <module>
+    inference_result = abu.infer_typeAndParameter()
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/estimation/ABU_estimator_noapproximation.py", line 111, in infer_typeAndParameter
+    pestim_res = self.estimate_parameter_from_posterior(param_res.posterior_normalized)
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/estimation/ABU_estimator_noapproximation.py", line 177, in estimate_parameter_from_posterior
+    posterior_samples = rs.rejection_sample(pdf_func, self.xrange[0], self.xrange[1], pdfmax + .2, num_samples)
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/utils/rejection_sampler.py", line 19, in rejection_sample
+    final_samples = samples_superSet[samples_proposalValue<pdf_vals]
+IndexError: too many indices for array
+2018-04-09 02:39:07,241 [INFO] twilio.http_client: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages.json
+2018-04-09 02:39:07,241 [INFO] twilio.http_client: PAYLOAD: {'Body': "Experiment with args Namespace(ch_length_mean=20, ch_length_min=5, ch_length_sigma=10, ch_maxparticles=1000, ch_resample_particles=1000, mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='cp-oracle') exception too many indices for array ! Check logs!", 'To': '+15125022558', 'From': '+15126438645'}
+2018-04-09 02:39:07,699 [INFO] twilio.http_client: POST Response: 201 {"sid": "SMb06ca126861d40a2aa7533b830e8e7a1", "date_created": "Mon, 09 Apr 2018 07:39:07 +0000", "date_updated": "Mon, 09 Apr 2018 07:39:07 +0000", "date_sent": null, "account_sid": "AC03c6c74162a11f07ffb0170da406f3c2", "to": "+15125022558", "from": "+15126438645", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Experiment with args Namespace(ch_length_mean=20, ch_length_min=5, ch_length_sigma=10, ch_maxparticles=1000, ch_resample_particles=1000, mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='cp-oracle') exception too many indices for array ! Check logs!", "status": "queued", "num_segments": "3", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SMb06ca126861d40a2aa7533b830e8e7a1.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SMb06ca126861d40a2aa7533b830e8e7a1/Media.json"}}

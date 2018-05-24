@@ -1,0 +1,865 @@
+2018-04-01 14:26:18,033 [INFO] cp-oracle1522610778: -----Experiment type cp-oracle ------ 
+2018-04-01 14:26:18,033 [INFO] cp-oracle1522610778: -----------------------------Experiment ID 1522610778 begins--------------------------
+2018-04-01 14:26:18,033 [INFO] cp-oracle1522610778: Configuration of the experiment: no_experiments: 2
+2018-04-01 14:26:18,033 [INFO] cp-oracle1522610778: Configurations of the experiment: n_max_iters_experiment: 100
+2018-04-01 14:26:18,033 [INFO] cp-oracle1522610778: Configurations of the experiment: n_agents: 4
+2018-04-01 14:26:18,034 [INFO] cp-oracle1522610778: Configurations of the experiment: n_agents_tracking: 1
+2018-04-01 14:26:18,034 [INFO] cp-oracle1522610778: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-04-01 14:26:18,036 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-04-01 14:26:18,042 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 28
+2018-04-01 14:26:18,043 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-04-01 14:26:18,050 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-04-01 14:26:18,051 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-04-01 14:26:18,051 [INFO] cp-oracle1522610778: iter 0 in experiment 0
+2018-04-01 14:26:18,117 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,117 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,124 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,127 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,128 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:18,134 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,136 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,137 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:18,143 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,146 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,148 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:18,155 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,157 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,158 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:18,163 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,165 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,168 [INFO] cp-oracle1522610778: iter 1 in experiment 0
+2018-04-01 14:26:18,197 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,198 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,202 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,204 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,205 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:18,209 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,211 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,212 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:18,216 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,218 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,220 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:18,224 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,227 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,228 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:18,235 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,237 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,241 [INFO] cp-oracle1522610778: Item consumed
+2018-04-01 14:26:18,241 [INFO] cp-oracle1522610778: iter 2 in experiment 0
+2018-04-01 14:26:18,274 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,274 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,279 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,281 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,282 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:18,287 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,289 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,290 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:18,295 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,297 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,298 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:18,304 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,305 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,307 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:18,313 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,314 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,317 [INFO] cp-oracle1522610778: Item consumed
+2018-04-01 14:26:18,317 [INFO] cp-oracle1522610778: iter 3 in experiment 0
+2018-04-01 14:26:18,348 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,348 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,353 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,355 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,356 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:18,360 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,362 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,363 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:18,368 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,370 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,371 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:18,376 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,378 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,379 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:18,385 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,386 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,389 [INFO] cp-oracle1522610778: iter 4 in experiment 0
+2018-04-01 14:26:18,422 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,422 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,426 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,428 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,429 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:18,434 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,436 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,437 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:18,442 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,444 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,445 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:18,452 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,454 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,455 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:18,461 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,462 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,464 [INFO] cp-oracle1522610778: iter 5 in experiment 0
+2018-04-01 14:26:18,497 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,498 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,503 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,505 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,506 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:18,511 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,513 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,513 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:18,519 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,521 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,522 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:18,527 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,528 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,530 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:18,536 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,537 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,540 [INFO] cp-oracle1522610778: Item consumed
+2018-04-01 14:26:18,540 [INFO] cp-oracle1522610778: iter 6 in experiment 0
+2018-04-01 14:26:18,576 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,576 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,581 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,582 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,583 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:18,588 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,589 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,590 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:18,595 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,596 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,598 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:18,603 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,604 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,606 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:18,612 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,613 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,615 [INFO] cp-oracle1522610778: iter 7 in experiment 0
+2018-04-01 14:26:18,655 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,656 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,660 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,662 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,663 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:18,667 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,669 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,670 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:18,675 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,677 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,678 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:18,683 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,685 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,686 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:18,692 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,693 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,695 [INFO] cp-oracle1522610778: iter 8 in experiment 0
+2018-04-01 14:26:18,735 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,735 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,740 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,743 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,744 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:18,749 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,752 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,753 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:18,759 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,762 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,763 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:18,768 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,772 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,773 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:18,779 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,781 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,783 [INFO] cp-oracle1522610778: Item consumed
+2018-04-01 14:26:18,784 [INFO] cp-oracle1522610778: iter 9 in experiment 0
+2018-04-01 14:26:18,823 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,823 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,828 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,830 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,831 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:18,836 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,838 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,839 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:18,844 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,847 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,848 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:18,853 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,855 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,857 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:18,863 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,864 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,868 [INFO] cp-oracle1522610778: iter 10 in experiment 0
+2018-04-01 14:26:18,909 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,910 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,915 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,916 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,917 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:18,922 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,924 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,925 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:18,930 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,932 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,933 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:18,938 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,940 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,941 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:18,948 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:18,949 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:18,952 [INFO] cp-oracle1522610778: iter 11 in experiment 0
+2018-04-01 14:26:18,992 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:18,992 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:18,997 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,000 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,000 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:19,005 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,007 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,008 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:19,013 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,015 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,016 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:19,021 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,022 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,024 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:19,029 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,030 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,033 [INFO] cp-oracle1522610778: iter 12 in experiment 0
+2018-04-01 14:26:19,076 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:19,076 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:19,083 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,086 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,087 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:19,094 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,096 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,097 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:19,102 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,104 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,105 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:19,111 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,113 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,114 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:19,121 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,122 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,125 [INFO] cp-oracle1522610778: Item consumed
+2018-04-01 14:26:19,126 [INFO] cp-oracle1522610778: iter 13 in experiment 0
+2018-04-01 14:26:19,170 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:19,171 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:19,175 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,177 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,177 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:19,182 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,184 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,185 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:19,190 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,192 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,193 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:19,198 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,200 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,202 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:19,207 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,209 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,211 [INFO] cp-oracle1522610778: iter 14 in experiment 0
+2018-04-01 14:26:19,256 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:19,256 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:19,261 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,264 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,264 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:19,269 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,272 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,273 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:19,278 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,280 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,281 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:19,287 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,289 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,291 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:19,299 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,300 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,303 [INFO] cp-oracle1522610778: Item consumed
+2018-04-01 14:26:19,303 [INFO] cp-oracle1522610778: iter 15 in experiment 0
+2018-04-01 14:26:19,351 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:19,351 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:19,356 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,358 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,359 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:19,363 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,365 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,366 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:19,371 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,372 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,374 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:19,379 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,380 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,382 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:19,388 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,389 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,392 [INFO] cp-oracle1522610778: iter 16 in experiment 0
+2018-04-01 14:26:19,442 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:19,442 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:19,446 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,449 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,450 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:19,455 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,458 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,459 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:19,464 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,467 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,468 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:19,473 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,476 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,477 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:19,483 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,484 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,486 [INFO] cp-oracle1522610778: iter 17 in experiment 0
+2018-04-01 14:26:19,583 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:19,583 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:19,589 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,592 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,593 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:19,599 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,601 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,602 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:19,608 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,610 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,612 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:19,617 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,619 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,620 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:19,626 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,628 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,630 [INFO] cp-oracle1522610778: Item consumed
+2018-04-01 14:26:19,631 [INFO] cp-oracle1522610778: iter 18 in experiment 0
+2018-04-01 14:26:19,682 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:19,682 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:19,687 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,688 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,689 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:19,696 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,700 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,702 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:19,711 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,714 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,716 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:19,726 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,729 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,731 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:19,741 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,743 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,747 [INFO] cp-oracle1522610778: iter 19 in experiment 0
+2018-04-01 14:26:19,807 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:19,807 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:19,812 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,814 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,814 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:19,819 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,821 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,822 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:19,826 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,828 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,829 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:19,834 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,836 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,837 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:19,843 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,844 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,847 [INFO] cp-oracle1522610778: iter 20 in experiment 0
+2018-04-01 14:26:19,901 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:19,901 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:19,907 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,909 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,909 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:19,914 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,916 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,917 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:19,921 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,923 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,925 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:19,929 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,931 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,933 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:19,941 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:19,943 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:19,947 [INFO] cp-oracle1522610778: iter 21 in experiment 0
+2018-04-01 14:26:20,002 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:20,002 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:20,007 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,009 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,010 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:20,014 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,016 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,017 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:20,022 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,024 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,025 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:20,030 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,031 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,033 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:20,039 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,040 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,042 [INFO] cp-oracle1522610778: iter 22 in experiment 0
+2018-04-01 14:26:20,098 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:20,098 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:20,103 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,106 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,107 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:20,114 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,117 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,119 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:20,128 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,130 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,132 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:20,140 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,142 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,145 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:20,152 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,153 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,157 [INFO] cp-oracle1522610778: iter 23 in experiment 0
+2018-04-01 14:26:20,222 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:20,222 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:20,226 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,228 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,229 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:20,234 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,235 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,237 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:20,243 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,244 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,245 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:20,251 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,252 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,254 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:20,260 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,261 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,264 [INFO] cp-oracle1522610778: iter 24 in experiment 0
+2018-04-01 14:26:20,326 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:20,326 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:20,332 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,334 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,334 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:20,339 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,341 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,342 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:20,348 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,349 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,350 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:20,356 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,358 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,359 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:20,366 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,367 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,370 [INFO] cp-oracle1522610778: Item consumed
+2018-04-01 14:26:20,370 [INFO] cp-oracle1522610778: iter 25 in experiment 0
+2018-04-01 14:26:20,434 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:20,435 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:20,440 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,442 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,443 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:20,448 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,450 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,451 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:20,456 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,459 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,460 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:20,465 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,468 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,469 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:20,475 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,476 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,479 [INFO] cp-oracle1522610778: iter 26 in experiment 0
+2018-04-01 14:26:20,543 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:20,543 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:20,548 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,550 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,551 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:20,556 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,558 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,559 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:20,564 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,566 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,567 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:20,573 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,574 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,576 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:20,582 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,584 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,586 [INFO] cp-oracle1522610778: Item consumed
+2018-04-01 14:26:20,586 [INFO] cp-oracle1522610778: iter 27 in experiment 0
+2018-04-01 14:26:20,650 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:20,650 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:20,654 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,656 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,657 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:20,662 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,663 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,664 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:20,669 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,671 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,672 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:20,677 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,678 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,680 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:20,686 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,687 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,689 [INFO] cp-oracle1522610778: iter 28 in experiment 0
+2018-04-01 14:26:20,754 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:20,754 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:20,759 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,761 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,762 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:20,766 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,768 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,769 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:20,774 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,776 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,777 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:20,782 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,784 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,786 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:20,792 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,793 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,795 [INFO] cp-oracle1522610778: iter 29 in experiment 0
+2018-04-01 14:26:20,859 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:20,859 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:20,864 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,866 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,867 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:20,872 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,873 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,874 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:20,879 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,881 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,882 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:20,887 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,889 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,890 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:20,896 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,897 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,900 [INFO] cp-oracle1522610778: iter 30 in experiment 0
+2018-04-01 14:26:20,970 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:20,970 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:20,975 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,977 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,978 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:20,983 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,984 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,985 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:20,990 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:20,992 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:20,993 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:20,999 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,000 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,002 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:21,008 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,009 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,011 [INFO] cp-oracle1522610778: iter 31 in experiment 0
+2018-04-01 14:26:21,078 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:21,079 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:21,083 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,085 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,086 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:21,091 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,092 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,093 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:21,099 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,100 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,101 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:21,107 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,108 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,110 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:21,116 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,117 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,120 [INFO] cp-oracle1522610778: iter 32 in experiment 0
+2018-04-01 14:26:21,189 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:21,189 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:21,194 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,196 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,196 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:21,202 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,203 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,204 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:21,209 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,211 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,212 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:21,218 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,219 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,221 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:21,227 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,228 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,230 [INFO] cp-oracle1522610778: iter 33 in experiment 0
+2018-04-01 14:26:21,300 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:21,300 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:21,305 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,307 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,308 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:21,313 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,314 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,315 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:21,320 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,322 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,323 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:21,328 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,330 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,331 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:21,338 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,339 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,342 [INFO] cp-oracle1522610778: iter 34 in experiment 0
+2018-04-01 14:26:21,417 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:21,417 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:21,422 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,424 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,424 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:21,429 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,431 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,432 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:21,437 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,439 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,440 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:21,446 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,447 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,449 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:21,455 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,456 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,458 [INFO] cp-oracle1522610778: iter 35 in experiment 0
+2018-04-01 14:26:21,531 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:21,531 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:21,536 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,537 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,538 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:21,543 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,545 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,545 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:21,550 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,552 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,553 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:21,559 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,560 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,562 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:21,568 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,569 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,571 [INFO] cp-oracle1522610778: iter 36 in experiment 0
+2018-04-01 14:26:21,647 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:21,647 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:21,652 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,654 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,655 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:21,660 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,661 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,662 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:21,668 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,669 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,670 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:21,676 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,677 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,679 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:21,685 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,686 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,688 [INFO] cp-oracle1522610778: iter 37 in experiment 0
+2018-04-01 14:26:21,762 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:21,762 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:21,767 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,769 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,769 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:21,774 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,776 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,776 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:21,781 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,783 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,784 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:21,789 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,791 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,792 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:21,798 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,800 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,802 [INFO] cp-oracle1522610778: iter 38 in experiment 0
+2018-04-01 14:26:21,881 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:21,881 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:21,886 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,887 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,888 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:21,893 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,894 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,896 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:21,902 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,904 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,905 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:21,911 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,912 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,914 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:21,920 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:21,921 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:21,923 [INFO] cp-oracle1522610778: iter 39 in experiment 0
+2018-04-01 14:26:22,000 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:22,000 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:22,005 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,007 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,007 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:22,013 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,015 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,016 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:22,020 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,022 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,023 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:22,028 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,030 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,031 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:22,037 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,038 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,041 [INFO] cp-oracle1522610778: iter 40 in experiment 0
+2018-04-01 14:26:22,122 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:22,122 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:22,126 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,128 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,129 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:22,134 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,135 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,136 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:22,141 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,143 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,144 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:22,150 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,151 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,153 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:22,159 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,160 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,163 [INFO] cp-oracle1522610778: iter 41 in experiment 0
+2018-04-01 14:26:22,243 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:22,244 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:22,249 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,250 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,251 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:22,256 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,258 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,259 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:22,264 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,266 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,267 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:22,272 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,274 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,275 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:22,281 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,282 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,284 [INFO] cp-oracle1522610778: iter 42 in experiment 0
+2018-04-01 14:26:22,368 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:22,368 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:22,373 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,375 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,375 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:22,380 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,382 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,383 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:22,388 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,389 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,391 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:22,396 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,398 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,400 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:22,407 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,408 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,410 [INFO] cp-oracle1522610778: iter 43 in experiment 0
+2018-04-01 14:26:22,492 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:22,493 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:22,497 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,499 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,499 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:22,504 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,506 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,507 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:22,512 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,514 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,515 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:22,520 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,522 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,524 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:22,529 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,530 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,533 [INFO] cp-oracle1522610778: iter 44 in experiment 0
+2018-04-01 14:26:22,619 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:22,619 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:22,624 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,626 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,626 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:22,631 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,633 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,634 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:22,639 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,641 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,642 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:22,648 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,649 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,651 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:22,656 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,658 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,660 [INFO] cp-oracle1522610778: iter 45 in experiment 0
+2018-04-01 14:26:22,744 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:22,744 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:22,749 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,751 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,751 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:22,756 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,758 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,759 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:22,764 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,766 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,767 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:22,772 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,774 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,775 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:22,781 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,782 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,784 [INFO] cp-oracle1522610778: iter 46 in experiment 0
+2018-04-01 14:26:22,871 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:22,871 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:22,876 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,878 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,879 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:22,884 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,885 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,886 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:22,891 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,893 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,894 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:22,901 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,903 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,904 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:22,910 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:22,912 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:22,914 [INFO] cp-oracle1522610778: iter 47 in experiment 0
+2018-04-01 14:26:23,002 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:23,002 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:23,007 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:23,009 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:23,010 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:23,014 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:23,016 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:23,017 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:23,023 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:23,024 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:23,025 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:23,030 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:23,032 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:23,033 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:23,039 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:23,040 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:23,043 [INFO] cp-oracle1522610778: iter 48 in experiment 0
+2018-04-01 14:26:23,141 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-04-01 14:26:23,141 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-04-01 14:26:23,148 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:23,150 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:23,151 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-04-01 14:26:23,157 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:23,159 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:23,160 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-04-01 14:26:23,167 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:23,169 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:23,170 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-04-01 14:26:23,177 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:23,179 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:23,181 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-04-01 14:26:23,188 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout with rolloutdepth 3
+2018-04-01 14:26:23,189 [INFO] src.mcts.mcts_sourcealgo: Simulation in rollout finished with rolloutdepth 3
+2018-04-01 14:26:23,192 [INFO] cp-oracle1522610778: Item consumed
+2018-04-01 14:26:23,193 [INFO] cp-oracle1522610778: iter 49 in experiment 0
+2018-04-01 14:26:23,193 [INFO] cp-oracle1522610778: Agent 0/1's type changed from to 1

@@ -1,0 +1,20 @@
+2018-03-25 20:12:12,863 [INFO] __main__: Logging configuration of the file
+2018-03-25 20:12:12,869 [INFO] __main__: LOGGING_CONFIG
+2018-03-25 20:12:12,878 [INFO] src.utils.generate_init: Initializing new configuration
+2018-03-25 20:12:12,885 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 19
+2018-03-25 20:12:12,886 [INFO] __main__: Generated new inital parameters
+2018-03-25 20:12:12,886 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-25 20:12:12,897 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 5 agents and working on estimating parameter view_radius with a resolution of 5
+2018-03-25 20:12:12,898 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 5, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-25 20:12:12,900 [INFO] src.champ: Initialized CHAMP with the following config
+2018-03-25 20:12:12,900 [INFO] src.champ: seg_length_mean: 20
+2018-03-25 20:12:12,900 [INFO] src.champ: seg_length_sigma: 10.0
+2018-03-25 20:12:12,900 [INFO] src.champ: seg_length_min: 5
+2018-03-25 20:12:12,901 [INFO] src.champ: max_particles: 1000
+2018-03-25 20:12:12,901 [INFO] src.champ: resamp_particles: 1000
+2018-03-25 20:12:24,727 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:32,510 [INFO] __main__: Item consumed at time step 0
+2018-03-25 20:12:33,821 [INFO] src.champ: Backtracking in CHAMP
+2018-03-25 20:12:33,823 [INFO] __main__: Results from CHAMP: {'models': [], 'paramestims': [], 'map': [], 'cpindices': [], 'theta': []}
+2018-03-25 20:12:33,824 [INFO] __main__: Main reported changepoint at [] from type 2 to 2
+2018-03-25 20:12:38,142 [INFO] src.champ: Backtracking in CHAMP

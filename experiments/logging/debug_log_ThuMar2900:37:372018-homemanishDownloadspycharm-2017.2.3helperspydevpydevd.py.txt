@@ -1,0 +1,222 @@
+2018-03-29 00:37:37,365 [INFO] 1522301857: -----Experiment with CHAMP ------ 
+2018-03-29 00:37:37,365 [INFO] 1522301857: -----------------------------Experiment ID 1522301857 begins--------------------------
+2018-03-29 00:37:37,365 [INFO] 1522301857: Configuration of the experiment: no_experiments: 20
+2018-03-29 00:37:37,365 [INFO] 1522301857: Configurations of the experiment: n_max_iters_experiment: 150
+2018-03-29 00:37:37,365 [INFO] 1522301857: Configurations of the experiment: n_agents: 4
+2018-03-29 00:37:37,365 [INFO] 1522301857: Configurations of the experiment: n_agents_tracking: 1
+2018-03-29 00:37:37,366 [INFO] 1522301857: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-03-29 00:37:37,367 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-03-29 00:37:37,374 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 9
+2018-03-29 00:37:37,375 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-29 00:37:37,388 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-03-29 00:37:37,389 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-29 00:37:37,391 [INFO] src.champ: Initialized CHAMP with the following config
+2018-03-29 00:37:37,391 [INFO] src.champ: seg_length_mean: 20
+2018-03-29 00:37:37,391 [INFO] src.champ: seg_length_sigma: 10
+2018-03-29 00:37:37,391 [INFO] src.champ: seg_length_min: 5
+2018-03-29 00:37:37,391 [INFO] src.champ: max_particles: 1000
+2018-03-29 00:37:37,392 [INFO] src.champ: resamp_particles: 1000
+2018-03-29 00:37:37,392 [INFO] 1522301857: iter 0 in experiment 0
+2018-03-29 00:37:37,546 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:37,547 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:37,566 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:37,585 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:37,603 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:37,624 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:37,637 [INFO] 1522301857: iter 1 in experiment 0
+2018-03-29 00:37:37,695 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:37,696 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:37,708 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:37,720 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:37,729 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:37,738 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:37,749 [INFO] 1522301857: iter 2 in experiment 0
+2018-03-29 00:37:37,783 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:37,783 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:37,792 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:37,802 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:37,813 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:37,824 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:37,834 [INFO] 1522301857: iter 3 in experiment 0
+2018-03-29 00:37:37,871 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:37,872 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:37,885 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:37,894 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:37,904 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:37,914 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:37,925 [INFO] 1522301857: Item consumed
+2018-03-29 00:37:37,925 [INFO] 1522301857: iter 4 in experiment 0
+2018-03-29 00:37:37,976 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:37,976 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:37,983 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:37,992 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:38,004 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:38,016 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:38,031 [INFO] 1522301857: iter 5 in experiment 0
+2018-03-29 00:37:38,049 [INFO] src.champ: Backtracking in CHAMP
+2018-03-29 00:37:38,049 [INFO] src.champ: prev changepoint at: 0 and type is: 3
+2018-03-29 00:37:38,049 [INFO] 1522301857: CHAMP backtracked at 5 but no changepoint detected
+2018-03-29 00:37:38,079 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:38,079 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:38,088 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:38,098 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:38,109 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:38,120 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:38,132 [INFO] 1522301857: Item consumed
+2018-03-29 00:37:38,133 [INFO] 1522301857: iter 6 in experiment 0
+2018-03-29 00:37:38,183 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:38,183 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:38,192 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:38,203 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:38,214 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:38,230 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:38,248 [INFO] 1522301857: Item consumed
+2018-03-29 00:37:38,248 [INFO] 1522301857: iter 7 in experiment 0
+2018-03-29 00:37:38,307 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:38,307 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:38,318 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:38,327 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:38,336 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:38,345 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:38,355 [INFO] 1522301857: iter 8 in experiment 0
+2018-03-29 00:37:38,428 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:38,429 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:38,446 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:38,459 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:38,473 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:38,487 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:38,502 [INFO] 1522301857: iter 9 in experiment 0
+2018-03-29 00:37:38,631 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:38,633 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:38,651 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:38,665 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:38,679 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:38,692 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:38,709 [INFO] 1522301857: iter 10 in experiment 0
+2018-03-29 00:37:38,833 [INFO] src.champ: Backtracking in CHAMP
+2018-03-29 00:37:38,833 [INFO] src.champ: prev changepoint at: 0 and type is: 3
+2018-03-29 00:37:38,833 [INFO] 1522301857: CHAMP backtracked at 10 but no changepoint detected
+2018-03-29 00:37:38,898 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:38,898 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:38,913 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:38,927 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:38,943 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:38,962 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:38,983 [INFO] 1522301857: Item consumed
+2018-03-29 00:37:38,983 [INFO] 1522301857: iter 11 in experiment 0
+2018-03-29 00:37:39,129 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:39,129 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:39,142 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:39,154 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:39,167 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:39,180 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:39,195 [INFO] 1522301857: iter 12 in experiment 0
+2018-03-29 00:37:39,340 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:39,340 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:39,351 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:39,363 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:39,376 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:39,389 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:39,404 [INFO] 1522301857: iter 13 in experiment 0
+2018-03-29 00:37:39,557 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:39,557 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:39,566 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:39,578 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:39,592 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:39,607 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:39,624 [INFO] 1522301857: Item consumed
+2018-03-29 00:37:39,624 [INFO] 1522301857: iter 14 in experiment 0
+2018-03-29 00:37:39,861 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:39,861 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:39,872 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:39,911 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:39,927 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:39,943 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:39,962 [INFO] 1522301857: iter 15 in experiment 0
+2018-03-29 00:37:40,281 [INFO] src.champ: Backtracking in CHAMP
+2018-03-29 00:37:40,281 [INFO] src.champ: prev changepoint at: 0 and type is: 3
+2018-03-29 00:37:40,282 [INFO] 1522301857: CHAMP backtracked at 15 but no changepoint detected
+2018-03-29 00:37:40,403 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:40,403 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:40,416 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:40,431 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:40,443 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:40,457 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:40,473 [INFO] 1522301857: iter 16 in experiment 0
+2018-03-29 00:37:40,758 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:40,759 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:40,768 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:40,779 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:40,789 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:40,800 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:40,813 [INFO] 1522301857: iter 17 in experiment 0
+2018-03-29 00:37:41,024 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:41,024 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:41,031 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:41,039 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:41,047 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:41,055 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:41,065 [INFO] 1522301857: iter 18 in experiment 0
+2018-03-29 00:37:41,255 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:41,255 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:41,263 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:41,270 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:41,278 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:41,287 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:41,296 [INFO] 1522301857: iter 19 in experiment 0
+2018-03-29 00:37:41,510 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:41,510 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:41,517 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:41,524 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:41,532 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:41,540 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:41,551 [INFO] 1522301857: iter 20 in experiment 0
+2018-03-29 00:37:41,737 [INFO] src.champ: Backtracking in CHAMP
+2018-03-29 00:37:41,737 [INFO] src.champ: prev changepoint at: 0 and type is: 3
+2018-03-29 00:37:41,737 [INFO] 1522301857: CHAMP backtracked at 20 but no changepoint detected
+2018-03-29 00:37:41,791 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:41,792 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:41,800 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:41,808 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:41,817 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:41,826 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:41,838 [INFO] 1522301857: iter 21 in experiment 0
+2018-03-29 00:37:42,148 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:42,148 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:42,155 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:42,162 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:42,170 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:42,178 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:42,187 [INFO] 1522301857: iter 22 in experiment 0
+2018-03-29 00:37:42,497 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:42,498 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:42,506 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:42,514 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:42,523 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:42,532 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:42,542 [INFO] 1522301857: iter 23 in experiment 0
+2018-03-29 00:37:42,922 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:42,922 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:42,936 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:42,949 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:42,961 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:42,977 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:42,995 [INFO] 1522301857: iter 24 in experiment 0
+2018-03-29 00:37:43,342 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:37:43,342 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:37:43,349 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:37:43,357 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:37:43,365 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:37:43,373 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:37:43,381 [INFO] 1522301857: iter 25 in experiment 0
+2018-03-29 00:37:43,666 [INFO] src.champ: Backtracking in CHAMP
+2018-03-29 00:37:43,667 [INFO] src.champ: prev changepoint at: 5 and type is: 2
+2018-03-29 00:37:43,667 [INFO] src.champ: prev changepoint at: 0 and type is: 3

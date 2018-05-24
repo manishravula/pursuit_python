@@ -1,0 +1,14 @@
+2018-03-25 20:06:15,369 [INFO] __main__: Logging configuration of the file
+2018-03-25 20:06:15,371 [INFO] __main__: LOGGING_CONFIG
+2018-03-25 20:06:15,376 [INFO] src.utils.generate_init: Initializing new configuration
+2018-03-25 20:06:15,381 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 19
+2018-03-25 20:06:15,382 [INFO] __main__: Generated new inital parameters
+2018-03-25 20:06:15,382 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-25 20:06:15,389 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 5 agents and working on estimating parameter view_radius with a resolution of 5
+2018-03-25 20:06:15,390 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 5, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-25 20:06:15,391 [INFO] src.champ: Initialized CHAMP with the following config
+2018-03-25 20:06:15,391 [INFO] src.champ: seg_length_mean: 20
+2018-03-25 20:06:15,391 [INFO] src.champ: seg_length_sigma: 10.0
+2018-03-25 20:06:15,391 [INFO] src.champ: seg_length_min: 5
+2018-03-25 20:06:15,391 [INFO] src.champ: max_particles: 1000
+2018-03-25 20:06:15,391 [INFO] src.champ: resamp_particles: 1000

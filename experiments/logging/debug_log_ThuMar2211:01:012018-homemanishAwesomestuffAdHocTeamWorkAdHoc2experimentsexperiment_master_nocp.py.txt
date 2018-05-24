@@ -1,0 +1,27 @@
+2018-03-22 11:01:01,108 [INFO] nocp-correstim1521734461: -----Experiment type nocp-correstim ------ 
+2018-03-22 11:01:01,108 [INFO] nocp-correstim1521734461: -----------------------------Experiment ID 1521734461 begins--------------------------
+2018-03-22 11:01:01,108 [INFO] nocp-correstim1521734461: Configuration of the experiment: no_experiments: 2
+2018-03-22 11:01:01,108 [INFO] nocp-correstim1521734461: Configurations of the experiment: n_max_iters_experiment: 150
+2018-03-22 11:01:01,108 [INFO] nocp-correstim1521734461: Configurations of the experiment: n_agents: 4
+2018-03-22 11:01:01,108 [INFO] nocp-correstim1521734461: Configurations of the experiment: n_agents_tracking: 1
+2018-03-22 11:01:01,108 [INFO] nocp-correstim1521734461: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-03-22 11:01:01,108 [ERROR] root: Experiment failed
+Traceback (most recent call last):
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/experiments/experiment_master_nocp.py", line 85, in <module>
+    main_arena, agents = generate_init.generate_from_savedexperiment('data/e2',i,n_agents)
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/utils/generate_init.py", line 226, in generate_from_savedexperiment
+    return generate_from_file(fname,n_agents)
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/utils/generate_init.py", line 192, in generate_from_file
+    grid_matrix = np.load(open(arenafilename, 'r'))
+IOError: [Errno 2] No such file or directory: 'data/e2/0/arena.npy'
+2018-03-22 11:01:01,145 [INFO] twilio.http_client: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages.json
+2018-03-22 11:01:01,145 [INFO] twilio.http_client: PAYLOAD: {'Body': "Experiment with args Namespace(settingsfolder='data/e2', type='nocp-correstim') exception [Errno 2] No such file or directory: 'data/e2/0/arena.npy' ! Check logs!", 'To': '+15125022558', 'From': '+15126438645'}
+2018-03-22 11:01:01,663 [INFO] twilio.http_client: POST Response: 201 {"sid": "SM84f64de4712b47e3ac9eb4a3ab76cb89", "date_created": "Thu, 22 Mar 2018 16:01:01 +0000", "date_updated": "Thu, 22 Mar 2018 16:01:01 +0000", "date_sent": null, "account_sid": "AC03c6c74162a11f07ffb0170da406f3c2", "to": "+15125022558", "from": "+15126438645", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Experiment with args Namespace(settingsfolder='data/e2', type='nocp-correstim') exception [Errno 2] No such file or directory: 'data/e2/0/arena.npy' ! Check logs!", "status": "queued", "num_segments": "2", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SM84f64de4712b47e3ac9eb4a3ab76cb89.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SM84f64de4712b47e3ac9eb4a3ab76cb89/Media.json"}}

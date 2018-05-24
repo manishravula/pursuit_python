@@ -1,0 +1,30 @@
+2018-04-09 02:30:47,278 [INFO] cp-oracle1523259047: -----Experiment type cp-oracle ------ 
+2018-04-09 02:30:47,278 [INFO] cp-oracle1523259047: -----------------------------Experiment ID 1523259047 begins--------------------------
+2018-04-09 02:30:47,279 [INFO] cp-oracle1523259047: Configuration of the experiment: no_experiments: 1
+2018-04-09 02:30:47,280 [INFO] cp-oracle1523259047: Configurations of the experiment: n_max_iters_experiment: 100
+2018-04-09 02:30:47,280 [INFO] cp-oracle1523259047: Configurations of the experiment: n_agents: 4
+2018-04-09 02:30:47,280 [INFO] cp-oracle1523259047: Configurations of the experiment: n_agents_tracking: 1
+2018-04-09 02:30:47,281 [INFO] cp-oracle1523259047: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-04-09 02:30:47,283 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-04-09 02:30:47,294 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 28
+2018-04-09 02:30:47,294 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-04-09 02:30:47,307 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-04-09 02:30:47,307 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-04-09 02:30:47,307 [ERROR] root: Experiment failed
+Traceback (most recent call last):
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/experiments/experiment_master_cp.py", line 122, in <module>
+    abu = ABU_estimator_noapproximation.ABU(agents[0],main_arena,abu_param_dict)
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/estimation/ABU_estimator_noapproximation.py", line 37, in __init__
+    self.parameter_posterior = np.copy(self.initial_prior_points)
+AttributeError: ABU instance has no attribute 'initial_prior_points'
+2018-04-09 02:30:47,387 [INFO] twilio.http_client: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages.json
+2018-04-09 02:30:47,387 [INFO] twilio.http_client: PAYLOAD: {'Body': "Experiment with args Namespace(ch_length_mean=20, ch_length_min=5, ch_length_sigma=10, ch_maxparticles=1000, ch_resample_particles=1000, mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='cp-oracle') exception ABU instance has no attribute 'initial_prior_points' ! Check logs!", 'To': '+15125022558', 'From': '+15126438645'}
+2018-04-09 02:30:47,797 [INFO] twilio.http_client: POST Response: 201 {"sid": "SMc7613bf51f0f420bb2697e09d9076740", "date_created": "Mon, 09 Apr 2018 07:30:47 +0000", "date_updated": "Mon, 09 Apr 2018 07:30:47 +0000", "date_sent": null, "account_sid": "AC03c6c74162a11f07ffb0170da406f3c2", "to": "+15125022558", "from": "+15126438645", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Experiment with args Namespace(ch_length_mean=20, ch_length_min=5, ch_length_sigma=10, ch_maxparticles=1000, ch_resample_particles=1000, mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2', type='cp-oracle') exception ABU instance has no attribute 'initial_prior_points' ! Check logs!", "status": "queued", "num_segments": "3", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SMc7613bf51f0f420bb2697e09d9076740.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SMc7613bf51f0f420bb2697e09d9076740/Media.json"}}

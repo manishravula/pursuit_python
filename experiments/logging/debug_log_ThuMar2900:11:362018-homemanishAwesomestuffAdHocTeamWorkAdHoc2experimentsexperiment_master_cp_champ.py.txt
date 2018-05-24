@@ -1,0 +1,73 @@
+2018-03-29 00:11:36,616 [INFO] 1522300296: -----Experiment with CHAMP ------ 
+2018-03-29 00:11:36,616 [INFO] 1522300296: -----------------------------Experiment ID 1522300296 begins--------------------------
+2018-03-29 00:11:36,616 [INFO] 1522300296: Configuration of the experiment: no_experiments: 20
+2018-03-29 00:11:36,616 [INFO] 1522300296: Configurations of the experiment: n_max_iters_experiment: 15
+2018-03-29 00:11:36,616 [INFO] 1522300296: Configurations of the experiment: n_agents: 4
+2018-03-29 00:11:36,617 [INFO] 1522300296: Configurations of the experiment: n_agents_tracking: 1
+2018-03-29 00:11:36,617 [INFO] 1522300296: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-03-29 00:11:36,617 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-03-29 00:11:36,623 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 9
+2018-03-29 00:11:36,623 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-29 00:11:36,630 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-03-29 00:11:36,630 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-29 00:11:36,630 [INFO] src.champ: Initialized CHAMP with the following config
+2018-03-29 00:11:36,630 [INFO] src.champ: seg_length_mean: 20
+2018-03-29 00:11:36,630 [INFO] src.champ: seg_length_sigma: 10
+2018-03-29 00:11:36,631 [INFO] src.champ: seg_length_min: 5
+2018-03-29 00:11:36,631 [INFO] src.champ: max_particles: 1000
+2018-03-29 00:11:36,631 [INFO] src.champ: resamp_particles: 1000
+2018-03-29 00:11:36,631 [INFO] 1522300296: iter 0 in experiment 0
+2018-03-29 00:11:36,662 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:11:36,662 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:11:36,667 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:11:36,673 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:11:36,679 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:11:36,686 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:11:36,693 [INFO] 1522300296: iter 1 in experiment 0
+2018-03-29 00:11:36,719 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:11:36,719 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:11:36,723 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:11:36,728 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:11:36,733 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:11:36,739 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:11:36,745 [INFO] 1522300296: iter 2 in experiment 0
+2018-03-29 00:11:36,773 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:11:36,773 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:11:36,778 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:11:36,784 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:11:36,791 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:11:36,797 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:11:36,804 [INFO] 1522300296: iter 3 in experiment 0
+2018-03-29 00:11:36,834 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:11:36,834 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:11:36,842 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:11:36,851 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:11:36,859 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:11:36,864 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:11:36,871 [INFO] 1522300296: Item consumed
+2018-03-29 00:11:36,871 [INFO] 1522300296: iter 4 in experiment 0
+2018-03-29 00:11:36,880 [CRITICAL] src.estimation.ABU_estimator_noapproximation: Exception in CHAMP request
+2018-03-29 00:11:36,880 [ERROR] root: Experiment failed
+Traceback (most recent call last):
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/experiments/experiment_master_cp_champ.py", line 164, in <module>
+    champ.observe(j+1,action_and_consequence)
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/champ.py", line 58, in observe
+    self.compute_MAP()
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/champ.py", line 78, in compute_MAP
+    lh, theta = fitter(self.states[p.pos], self.states[self.step])
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/estimation/ABU_estimator_noapproximation.py", line 164, in estimate_segmentForChamp_type0_withoutApprox
+    return self.estimate_singleType_segment_forChamp_withoutApprox(i,j,0)
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/estimation/ABU_estimator_noapproximation.py", line 133, in estimate_singleType_segment_forChamp_withoutApprox
+    raise Exception("Simulation not reached until there")
+Exception: Simulation not reached until there
+2018-03-29 00:11:36,895 [INFO] twilio.http_client: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages.json
+2018-03-29 00:11:36,895 [INFO] twilio.http_client: PAYLOAD: {'Body': "Experiment with args Namespace(ch_length_mean=20, ch_length_min=5, ch_length_sigma=10, ch_maxparticles=1000, ch_resample_particles=1000, mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2') exception Simulation not reached until there ! Check logs!", 'To': '+15125022558', 'From': '+15126438645'}
+2018-03-29 00:11:37,239 [INFO] twilio.http_client: POST Response: 201 {"sid": "SM5280b6ca5b954e3dbfd4fdf451de24a8", "date_created": "Thu, 29 Mar 2018 05:11:37 +0000", "date_updated": "Thu, 29 Mar 2018 05:11:37 +0000", "date_sent": null, "account_sid": "AC03c6c74162a11f07ffb0170da406f3c2", "to": "+15125022558", "from": "+15126438645", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Experiment with args Namespace(ch_length_mean=20, ch_length_min=5, ch_length_sigma=10, ch_maxparticles=1000, ch_resample_particles=1000, mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2') exception Simulation not reached until there ! Check logs!", "status": "queued", "num_segments": "3", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SM5280b6ca5b954e3dbfd4fdf451de24a8.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SM5280b6ca5b954e3dbfd4fdf451de24a8/Media.json"}}

@@ -1,0 +1,170 @@
+2018-03-29 00:23:41,991 [INFO] 1522301021: -----Experiment with CHAMP ------ 
+2018-03-29 00:23:41,991 [INFO] 1522301021: -----------------------------Experiment ID 1522301021 begins--------------------------
+2018-03-29 00:23:41,991 [INFO] 1522301021: Configuration of the experiment: no_experiments: 20
+2018-03-29 00:23:41,992 [INFO] 1522301021: Configurations of the experiment: n_max_iters_experiment: 15
+2018-03-29 00:23:41,992 [INFO] 1522301021: Configurations of the experiment: n_agents: 4
+2018-03-29 00:23:41,992 [INFO] 1522301021: Configurations of the experiment: n_agents_tracking: 1
+2018-03-29 00:23:41,992 [INFO] 1522301021: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-03-29 00:23:41,992 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-03-29 00:23:41,997 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 9
+2018-03-29 00:23:41,997 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-29 00:23:42,002 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-03-29 00:23:42,002 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-29 00:23:42,002 [INFO] src.champ: Initialized CHAMP with the following config
+2018-03-29 00:23:42,002 [INFO] src.champ: seg_length_mean: 20
+2018-03-29 00:23:42,002 [INFO] src.champ: seg_length_sigma: 10
+2018-03-29 00:23:42,002 [INFO] src.champ: seg_length_min: 5
+2018-03-29 00:23:42,002 [INFO] src.champ: max_particles: 1000
+2018-03-29 00:23:42,002 [INFO] src.champ: resamp_particles: 1000
+2018-03-29 00:23:42,002 [INFO] 1522301021: iter 0 in experiment 0
+2018-03-29 00:23:42,040 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:42,040 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:42,050 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:42,060 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:42,070 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:42,081 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:42,093 [INFO] 1522301021: iter 1 in experiment 0
+2018-03-29 00:23:42,137 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:42,137 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:42,146 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:42,154 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:42,163 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:42,173 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:42,185 [INFO] 1522301021: iter 2 in experiment 0
+2018-03-29 00:23:42,233 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:42,233 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:42,240 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:42,248 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:42,257 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:42,265 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:42,274 [INFO] 1522301021: iter 3 in experiment 0
+2018-03-29 00:23:42,328 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:42,328 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:42,337 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:42,345 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:42,355 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:42,365 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:42,376 [INFO] 1522301021: iter 4 in experiment 0
+2018-03-29 00:23:42,431 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:42,431 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:42,444 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:42,457 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:42,466 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:42,475 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:42,490 [INFO] 1522301021: Item consumed
+2018-03-29 00:23:42,491 [INFO] 1522301021: iter 5 in experiment 0
+2018-03-29 00:23:42,509 [INFO] src.champ: Backtracking in CHAMP
+2018-03-29 00:23:42,509 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-29 00:23:42,509 [INFO] 1522301021: CHAMP backtracked at 5 but no changepoint detected
+2018-03-29 00:23:42,553 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:42,553 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:42,559 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:42,568 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:42,579 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:42,589 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:42,598 [INFO] 1522301021: iter 6 in experiment 0
+2018-03-29 00:23:42,637 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:42,637 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:42,644 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:42,654 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:42,660 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:42,667 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:42,675 [INFO] 1522301021: Item consumed
+2018-03-29 00:23:42,675 [INFO] 1522301021: iter 7 in experiment 0
+2018-03-29 00:23:42,711 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:42,711 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:42,716 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:42,722 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:42,729 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:42,735 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:42,744 [INFO] 1522301021: Item consumed
+2018-03-29 00:23:42,745 [INFO] 1522301021: iter 8 in experiment 0
+2018-03-29 00:23:42,794 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:42,794 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:42,799 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:42,807 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:42,817 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:42,830 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:42,841 [INFO] 1522301021: iter 9 in experiment 0
+2018-03-29 00:23:42,891 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:42,891 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:42,899 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:42,907 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:42,916 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:42,926 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:42,935 [INFO] 1522301021: Item consumed
+2018-03-29 00:23:42,935 [INFO] 1522301021: iter 10 in experiment 0
+2018-03-29 00:23:42,964 [INFO] src.champ: Backtracking in CHAMP
+2018-03-29 00:23:42,964 [INFO] src.champ: prev changepoint at: 0 and type is: 0
+2018-03-29 00:23:42,964 [INFO] 1522301021: CHAMP backtracked at 10 but no changepoint detected
+2018-03-29 00:23:42,986 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:42,986 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:42,990 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:42,994 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:42,999 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:43,004 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:43,010 [INFO] 1522301021: iter 11 in experiment 0
+2018-03-29 00:23:43,056 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:43,056 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:43,061 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:43,066 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:43,072 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:43,079 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:43,085 [INFO] 1522301021: iter 12 in experiment 0
+2018-03-29 00:23:43,156 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:43,157 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:43,165 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:43,173 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:43,182 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:43,190 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:43,199 [INFO] 1522301021: Item consumed
+2018-03-29 00:23:43,200 [INFO] 1522301021: iter 13 in experiment 0
+2018-03-29 00:23:43,273 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:43,273 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:43,278 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:43,283 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:43,289 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:43,295 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:43,302 [INFO] 1522301021: iter 14 in experiment 0
+2018-03-29 00:23:43,386 [INFO] src.mcts.mcts_agent_wrapper: Starting Rollouts:
+2018-03-29 00:23:43,386 [INFO] src.mcts.mcts_agent_wrapper: Rollout 0 with max steps 3
+2018-03-29 00:23:43,391 [INFO] src.mcts.mcts_agent_wrapper: Rollout 1 with max steps 3
+2018-03-29 00:23:43,396 [INFO] src.mcts.mcts_agent_wrapper: Rollout 2 with max steps 3
+2018-03-29 00:23:43,401 [INFO] src.mcts.mcts_agent_wrapper: Rollout 3 with max steps 3
+2018-03-29 00:23:43,407 [INFO] src.mcts.mcts_agent_wrapper: Rollout 4 with max steps 3
+2018-03-29 00:23:43,413 [INFO] root: result left_over_items, 1
+2018-03-29 00:23:43,413 [INFO] root: result tags, Namespace(ch_length_mean=20, ch_length_min=5, ch_length_sigma=10, ch_maxparticles=1000, ch_resample_particles=1000, mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2')
+2018-03-29 00:23:43,413 [INFO] root: result game_length, 15
+2018-03-29 00:23:43,413 [INFO] root: result experimentID, 0
+2018-03-29 00:23:43,414 [INFO] root: result ini_number_items, 9
+2018-03-29 00:23:43,414 [INFO] 1522301021: End of expriment 0
+2018-03-29 00:23:43,414 [INFO] 1522301021: XXXXXXX                                                                         X   
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX         XX   
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X          X X   
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X            X   
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X            X   
+X        X  X  X      X      X   X     X   X    X X      X   XX    X            X   
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X          XXXXX 
+
+
+2018-03-29 00:23:43,414 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-03-29 00:23:43,417 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 10
+2018-03-29 00:23:43,417 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-29 00:23:43,421 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-03-29 00:23:43,421 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-29 00:23:43,421 [ERROR] root: Experiment failed
+Traceback (most recent call last):
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/experiments/experiment_master_cp_champ.py", line 113, in <module>
+    champ_config = champ.Config(fitters, length_min=args.ch_length_min, length_mean=args.ch_length_mean, length_sigma=args.ch_length_sigma, max_particles=args.ch_maxparticles,
+AttributeError: Champ instance has no attribute 'Config'
+2018-03-29 00:23:43,438 [INFO] twilio.http_client: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages.json
+2018-03-29 00:23:43,439 [INFO] twilio.http_client: PAYLOAD: {'Body': "Experiment with args Namespace(ch_length_mean=20, ch_length_min=5, ch_length_sigma=10, ch_maxparticles=1000, ch_resample_particles=1000, mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2') exception Champ instance has no attribute 'Config' ! Check logs!", 'To': '+15125022558', 'From': '+15126438645'}
+2018-03-29 00:23:43,933 [INFO] twilio.http_client: POST Response: 201 {"sid": "SM29a61a112f5e46fbb9ab5b55f317e73c", "date_created": "Thu, 29 Mar 2018 05:23:43 +0000", "date_updated": "Thu, 29 Mar 2018 05:23:43 +0000", "date_sent": null, "account_sid": "AC03c6c74162a11f07ffb0170da406f3c2", "to": "+15125022558", "from": "+15126438645", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Experiment with args Namespace(ch_length_mean=20, ch_length_min=5, ch_length_sigma=10, ch_maxparticles=1000, ch_resample_particles=1000, mcts_setting='heuristic', settingsfolder='/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/data/e2') exception Champ instance has no attribute 'Config' ! Check logs!", "status": "queued", "num_segments": "3", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SM29a61a112f5e46fbb9ab5b55f317e73c.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC03c6c74162a11f07ffb0170da406f3c2/Messages/SM29a61a112f5e46fbb9ab5b55f317e73c/Media.json"}}

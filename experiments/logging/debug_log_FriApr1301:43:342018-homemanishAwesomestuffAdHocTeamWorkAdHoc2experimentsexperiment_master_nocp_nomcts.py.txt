@@ -1,0 +1,29 @@
+2018-04-13 01:43:34,560 [INFO] 1523601814: -----------------------------Experiment ID 1523601814 begins--------------------------
+2018-04-13 01:43:34,561 [INFO] 1523601814: Configuration of the experiment: no_experiments: 1
+2018-04-13 01:43:34,561 [INFO] 1523601814: Configurations of the experiment: n_max_iters_experiment: 100
+2018-04-13 01:43:34,561 [INFO] 1523601814: Configurations of the experiment: n_agents: 4
+2018-04-13 01:43:34,561 [INFO] 1523601814: Configurations of the experiment: n_agents_tracking: 1
+2018-04-13 01:43:34,561 [INFO] 1523601814: XXXXXXX                                                                        XXX  
+X       X    X XXXXX  XXXXXX XXXXX     X   X    X XXXXXX X    X  XXXXX        X   X 
+X        X  X  X    X X      X    X    X   XX  XX X      XX   X    X         X     X
+XXXXX     XX   X    X XXXXX  X    X    X   X XX X XXXXX  X X  X    X         X     X
+X         XX   XXXXX  X      XXXXX     X   X    X X      X  X X    X         X     X
+X        X  X  X      X      X   X     X   X    X X      X   XX    X          X   X 
+XXXXXXX X    X X      XXXXXX X    X    X   X    X XXXXXX X    X    X           XXX  
+
+
+2018-04-13 01:43:34,562 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-04-13 01:43:34,564 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 29
+2018-04-13 01:43:34,564 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-04-13 01:43:34,568 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 10 agents and working on estimating parameter view_radius with a resolution of 10
+2018-04-13 01:43:34,568 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 10, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-04-13 01:43:34,568 [INFO] 1523601814: iter 0 in experiment 0
+2018-04-13 01:43:34,589 [ERROR] root: Experiment failed
+Traceback (most recent call last):
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/experiments/experiment_master_nocp_nomcts.py", line 138, in <module>
+    inference_result,[tpost,ppost] = abu.infer_typeAndParameter()
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/estimation/ABU_estimator_noapproximation.py", line 113, in infer_typeAndParameter
+    pestim_res = self.estimate_parameter_from_posterior(param_res.posterior_normalized[jdx])
+  File "/home/manish/Awesomestuff/AdHocTeamWork/AdHoc2/src/estimation/ABU_estimator_noapproximation.py", line 185, in estimate_parameter_from_posterior
+    posterior_samples += rs.rejection_sample(pdf_func, self.xrange[0], self.xrange[1], pdfmax + .2, num_samples)
+ValueError: operands could not be broadcast together with shapes (34,) (333,) (34,) 

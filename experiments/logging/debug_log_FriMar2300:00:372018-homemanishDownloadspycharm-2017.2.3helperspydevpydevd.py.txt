@@ -1,0 +1,328 @@
+2018-03-23 00:00:37,789 [INFO] __main__: Logging configuration of the file
+2018-03-23 00:00:37,792 [INFO] __main__: LOGGING_CONFIG
+2018-03-23 00:00:37,800 [INFO] src.utils.generate_init: Initializing old configuration for grid and agents
+2018-03-23 00:00:37,806 [INFO] src.utils.generate_init: Finished creating arena and agents. One item consumed due to overlap. Current item count is 25
+2018-03-23 00:00:37,807 [INFO] __main__: Reloading initial parameters
+2018-03-23 00:00:37,807 [INFO] src.estimation.ABU_estimator_noapproximation: Calling parent ABU via inheritance. This is ABU_noapproximation
+2018-03-23 00:00:37,813 [INFO] src.estimation.ABU_estimator: ABU Estimator class initialized with 5 agents and working on estimating parameter view_radius with a resolution of 5
+2018-03-23 00:00:37,814 [INFO] src.estimation.ABU_estimator: ABU polynomial info: resolution: 5, llpoly_degree: 9, priorpoly_degree: 9, postpoly_degree: 9, refitdensity: 20
+2018-03-23 00:00:37,815 [INFO] src.champ: Initialized CHAMP with the following config
+2018-03-23 00:00:37,815 [INFO] src.champ: seg_length_mean: 20
+2018-03-23 00:00:37,815 [INFO] src.champ: seg_length_sigma: 10.0
+2018-03-23 00:00:37,816 [INFO] src.champ: seg_length_min: 5
+2018-03-23 00:00:37,816 [INFO] src.champ: max_particles: 1000
+2018-03-23 00:00:37,816 [INFO] src.champ: resamp_particles: 1000
+2018-03-23 00:00:37,849 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:37,849 [INFO] __main__: Results from CHAMP: ([], [], [], [], [])
+2018-03-23 00:00:37,849 [INFO] __main__: Main reported changepoint at [] from type 1 to 1
+2018-03-23 00:00:37,864 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:37,864 [INFO] __main__: Results from CHAMP: ([], [], [], [], [])
+2018-03-23 00:00:37,864 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:37,880 [INFO] __main__: Item consumed at time step 2
+2018-03-23 00:00:37,881 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:37,881 [INFO] __main__: Results from CHAMP: ([], [], [], [], [])
+2018-03-23 00:00:37,881 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:37,898 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:37,898 [INFO] __main__: Results from CHAMP: ([], [], [], [], [])
+2018-03-23 00:00:37,899 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:37,922 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:37,923 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:37,923 [INFO] __main__: Results from CHAMP: ([1], [0.6590863964349496], [0.6019000651892117], [0], [-12.352468923154058])
+2018-03-23 00:00:37,923 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:37,945 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:37,945 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:37,946 [INFO] __main__: Results from CHAMP: ([1], [0.5839034436459721], [0.6287507895833612], [0], [-13.533093930736005])
+2018-03-23 00:00:37,946 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:37,969 [INFO] __main__: Item consumed at time step 6
+2018-03-23 00:00:37,969 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:37,970 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:37,970 [INFO] __main__: Results from CHAMP: ([1], [0.6209805930309482], [0.612127540977204], [0], [-14.723718938317955])
+2018-03-23 00:00:37,970 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,000 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,001 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,001 [INFO] __main__: Results from CHAMP: ([1], [0.6485539466972678], [0.5493281087295333], [0], [-15.924343945899903])
+2018-03-23 00:00:38,001 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,046 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,046 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,046 [INFO] __main__: Results from CHAMP: ([1], [0.5335678058769913], [0.5957140805021613], [0], [-17.13496895348185])
+2018-03-23 00:00:38,046 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,084 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,084 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,084 [INFO] __main__: Results from CHAMP: ([1], [0.5656136897394669], [0.5313207375172893], [0], [-18.355593961063796])
+2018-03-23 00:00:38,084 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,129 [INFO] __main__: Item consumed at time step 10
+2018-03-23 00:00:38,129 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,129 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,130 [INFO] __main__: Results from CHAMP: ([1], [0.637194407031775], [0.546874318575708], [0], [-19.586218968645746])
+2018-03-23 00:00:38,130 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,189 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,189 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,190 [INFO] __main__: Results from CHAMP: ([1], [0.5808643615823399], [0.6409857679407688], [0], [-20.826843976227693])
+2018-03-23 00:00:38,190 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,251 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,252 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,252 [INFO] __main__: Results from CHAMP: ([1], [0.7088949698557702], [0.6465981624125852], [0], [-22.07746898380964])
+2018-03-23 00:00:38,252 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,319 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,320 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,320 [INFO] __main__: Results from CHAMP: ([1], [0.7390524830360281], [0.5510919224583206], [0], [-23.338093991391588])
+2018-03-23 00:00:38,320 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,398 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,398 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,398 [INFO] __main__: Results from CHAMP: ([1], [0.26443826651559], [0.6681253916723874], [0], [-24.608718998973536])
+2018-03-23 00:00:38,398 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,512 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,513 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,513 [INFO] __main__: Results from CHAMP: ([1], [0.7561757822498272], [0.5716313555418294], [0], [-25.889344006555486])
+2018-03-23 00:00:38,513 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,616 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,617 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,617 [INFO] __main__: Results from CHAMP: ([1], [0.2733516799344782], [0.5971878691097144], [0], [-27.179969014137434])
+2018-03-23 00:00:38,617 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,743 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,743 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,743 [INFO] __main__: Results from CHAMP: ([1], [0.6868198451957209], [0.5748975346044152], [0], [-28.480594021719384])
+2018-03-23 00:00:38,743 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:38,880 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:38,880 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:38,880 [INFO] __main__: Results from CHAMP: ([1], [0.2777232749982823], [0.5541428641668034], [0], [-29.79121902930133])
+2018-03-23 00:00:38,880 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:39,034 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:39,034 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:39,034 [INFO] __main__: Results from CHAMP: ([1], [0.6757383018704687], [0.6209358079576601], [0], [-31.111844036883276])
+2018-03-23 00:00:39,034 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:39,206 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:39,206 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:39,206 [INFO] __main__: Results from CHAMP: ([1], [0.28048261818889253], [0.6482226502397418], [0], [-32.44246904446523])
+2018-03-23 00:00:39,207 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:39,392 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:39,392 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:39,392 [INFO] __main__: Results from CHAMP: ([1], [0.6895885565095099], [0.5939808362290954], [0], [-33.783094052047176])
+2018-03-23 00:00:39,392 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:39,613 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:39,613 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:39,613 [INFO] __main__: Results from CHAMP: ([1], [0.2748234391704041], [0.6540703911452379], [0], [-35.13371905962912])
+2018-03-23 00:00:39,613 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:39,842 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:39,843 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:39,843 [INFO] __main__: Results from CHAMP: ([1], [0.6874903708635413], [0.641270956311944], [0], [-36.494344067211074])
+2018-03-23 00:00:39,843 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:40,090 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:40,090 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:40,091 [INFO] __main__: Results from CHAMP: ([1], [0.2978060407270406], [0.589498198510845], [0], [-37.86496907479301])
+2018-03-23 00:00:40,091 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:40,375 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:40,376 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:40,376 [INFO] __main__: Results from CHAMP: ([1], [0.739848903285171], [0.5815335582083199], [0], [-39.24559408237496])
+2018-03-23 00:00:40,376 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:40,662 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:40,662 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:40,662 [INFO] __main__: Results from CHAMP: ([1], [0.24258922576807157], [0.5864553666629462], [0], [-40.63621908995691])
+2018-03-23 00:00:40,662 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:40,983 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:40,984 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:40,984 [INFO] __main__: Results from CHAMP: ([1], [0.6357767353022208], [0.5974939207821991], [0], [-42.036844097538854])
+2018-03-23 00:00:40,984 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:41,330 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:41,330 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:41,330 [INFO] __main__: Results from CHAMP: ([1], [0.2684008242434892], [0.5819230721025788], [0], [-43.4474691051208])
+2018-03-23 00:00:41,331 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:41,716 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:41,716 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:41,716 [INFO] __main__: Results from CHAMP: ([1], [0.7331071227929684], [0.700868352557319], [0], [-44.86809411270275])
+2018-03-23 00:00:41,716 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:42,130 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:42,130 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:42,130 [INFO] __main__: Results from CHAMP: ([1], [0.27614603459247444], [0.5847532702746748], [0], [-46.2987191202847])
+2018-03-23 00:00:42,131 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:42,581 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:42,582 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:42,582 [INFO] __main__: Results from CHAMP: ([1], [0.6707314508387884], [0.626155226078955], [0], [-47.739344127866644])
+2018-03-23 00:00:42,582 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:43,055 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:43,055 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:43,055 [INFO] __main__: Results from CHAMP: ([1], [0.2798501615945462], [0.655309155576298], [0], [-49.18996913544859])
+2018-03-23 00:00:43,056 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:43,553 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:43,554 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:43,554 [INFO] __main__: Results from CHAMP: ([1], [0.7464150414945432], [0.635079355208104], [0], [-50.650594143030546])
+2018-03-23 00:00:43,554 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:44,079 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:44,079 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:44,081 [INFO] __main__: Results from CHAMP: ([1], [0.2770986696274261], [0.6116108993948988], [0], [-52.12121915061249])
+2018-03-23 00:00:44,081 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:44,648 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:44,648 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:44,648 [INFO] __main__: Results from CHAMP: ([1], [0.7704160016624042], [0.6133158967630724], [0], [-53.60184415819444])
+2018-03-23 00:00:44,648 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:45,248 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:45,248 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:45,249 [INFO] __main__: Results from CHAMP: ([1], [0.2781149333042456], [0.6319133148166549], [0], [-55.092469165776386])
+2018-03-23 00:00:45,249 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:45,882 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:45,882 [INFO] src.champ: prev changepoint at: 15 and type is: 0
+2018-03-23 00:00:45,882 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:45,882 [INFO] __main__: Results from CHAMP: ([0, 1], [0.6834737391754476, 0.26443826651559], [0.8233388090430835, 0.6315078355668579], [15, 0], [-56.48525056035898, -56.59309417335834])
+2018-03-23 00:00:45,882 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:46,551 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:46,551 [INFO] src.champ: prev changepoint at: 15 and type is: 0
+2018-03-23 00:00:46,551 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:46,551 [INFO] __main__: Results from CHAMP: ([0, 1], [0.2826041445813021, 0.26443826651559], [0.8104983772642447, 0.6131237290943492], [15, 0], [-57.76083497079894, -58.10371918094028])
+2018-03-23 00:00:46,551 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:47,253 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:47,253 [INFO] src.champ: prev changepoint at: 15 and type is: 0
+2018-03-23 00:00:47,253 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:47,254 [INFO] __main__: Results from CHAMP: ([0, 1], [0.7432835667504705, 0.26443826651559], [0.8360549086813169, 0.6153513334614678], [15, 0], [-59.04641938123889, -59.62434418852223])
+2018-03-23 00:00:47,254 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:47,989 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:47,990 [INFO] src.champ: prev changepoint at: 17 and type is: 0
+2018-03-23 00:00:47,990 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:47,990 [INFO] __main__: Results from CHAMP: ([0, 1], [0.2720602364558328, 0.2733516799344782], [0.8169698412121957, 0.6116239709908813], [17, 0], [-60.33208498596284, -61.154969196104176])
+2018-03-23 00:00:47,990 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:48,804 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:48,804 [INFO] src.champ: prev changepoint at: 17 and type is: 0
+2018-03-23 00:00:48,804 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:48,804 [INFO] __main__: Results from CHAMP: ([0, 1], [0.6992288554680697, 0.2733516799344782], [0.8299050490936474, 0.625386595198751], [17, 0], [-61.61766939640279, -62.69559420368613])
+2018-03-23 00:00:48,804 [INFO] __main__: Main reported changepoint at 0 from type 1 to 1
+2018-03-23 00:00:49,636 [INFO] __main__: Item consumed at time step 42
+2018-03-23 00:00:49,636 [INFO] __main__: Changepoint occured at 42 and agent 1 changed from type 1 to type 0 
+2018-03-23 00:00:49,636 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:49,636 [INFO] src.champ: prev changepoint at: 17 and type is: 0
+2018-03-23 00:00:49,636 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:49,637 [INFO] __main__: Results from CHAMP: ([0, 1], [0.2826853494174177, 0.2733516799344782], [0.8250398451449411, 0.6634032736586453], [17, 0], [-62.91325380684275, -64.24621921126807])
+2018-03-23 00:00:49,637 [INFO] __main__: Main reported changepoint at 42 from type 1 to 0
+2018-03-23 00:00:50,564 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:50,564 [INFO] src.champ: prev changepoint at: 17 and type is: 0
+2018-03-23 00:00:50,564 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:50,565 [INFO] __main__: Results from CHAMP: ([0, 1], [0.7143009535097496, 0.2733516799344782], [0.822758467606797, 0.541543816808399], [17, 0], [-64.21883821728271, -65.80684421885002])
+2018-03-23 00:00:50,565 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:00:51,468 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:51,468 [INFO] src.champ: prev changepoint at: 19 and type is: 0
+2018-03-23 00:00:51,468 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:51,469 [INFO] __main__: Results from CHAMP: ([0, 1], [0.257270690213441, 0.2777232749982823], [0.827796520879976, 0.5587181143613098], [19, 0], [-65.52450382200665, -67.37746922643197])
+2018-03-23 00:00:51,469 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:00:52,417 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:52,417 [INFO] src.champ: prev changepoint at: 19 and type is: 0
+2018-03-23 00:00:52,417 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:52,417 [INFO] __main__: Results from CHAMP: ([0, 1], [0.7380543803218199, 0.2777232749982823], [0.8314155558309225, 0.5790902073176323], [19, 0], [-66.8300882324466, -68.95809423401391])
+2018-03-23 00:00:52,417 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:00:53,422 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:53,422 [INFO] src.champ: prev changepoint at: 19 and type is: 0
+2018-03-23 00:00:53,422 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:53,422 [INFO] __main__: Results from CHAMP: ([0, 1], [0.28472632172120244, 0.2777232749982823], [0.7778436941988928, 0.6459939001500203], [19, 0], [-68.14567264288657, -70.54871924159586])
+2018-03-23 00:00:53,422 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:00:54,453 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:54,453 [INFO] src.champ: prev changepoint at: 19 and type is: 0
+2018-03-23 00:00:54,453 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:54,453 [INFO] __main__: Results from CHAMP: ([0, 1], [0.7624687581175568, 0.2777232749982823], [0.785241887179587, 0.5953058235640329], [19, 0], [-69.47125705332653, -72.14934424917782])
+2018-03-23 00:00:54,454 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:00:55,591 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:55,591 [INFO] src.champ: prev changepoint at: 21 and type is: 0
+2018-03-23 00:00:55,593 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:55,593 [INFO] __main__: Results from CHAMP: ([0, 1], [0.20558149645936802, 0.28048261818889253], [0.8289643033638451, 0.5943955190571181], [21, 0], [-70.79692265805048, -73.75996925675977])
+2018-03-23 00:00:55,593 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:00:56,757 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:56,758 [INFO] src.champ: prev changepoint at: 21 and type is: 0
+2018-03-23 00:00:56,758 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:56,758 [INFO] __main__: Results from CHAMP: ([0, 1], [0.6956370236246443, 0.28048261818889253], [0.8080599389406985, 0.6532745132805449], [21, 0], [-72.12250706849042, -75.38059426434172])
+2018-03-23 00:00:56,758 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:00:57,955 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:57,955 [INFO] src.champ: prev changepoint at: 21 and type is: 0
+2018-03-23 00:00:57,955 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:57,956 [INFO] __main__: Results from CHAMP: ([0, 1], [0.2523058540315179, 0.28048261818889253], [0.8246849888368373, 0.5917896028345228], [21, 0], [-73.45809147893037, -77.01121927192368])
+2018-03-23 00:00:57,956 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:00:59,179 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:00:59,179 [INFO] src.champ: prev changepoint at: 21 and type is: 0
+2018-03-23 00:00:59,179 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:00:59,179 [INFO] __main__: Results from CHAMP: ([0, 1], [0.7146740937372983, 0.28048261818889253], [0.8121680838794257, 0.6092348718356528], [21, 0], [-74.80367588937034, -78.65184427950562])
+2018-03-23 00:00:59,179 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:00,455 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:00,455 [INFO] src.champ: prev changepoint at: 23 and type is: 0
+2018-03-23 00:01:00,455 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:00,455 [INFO] __main__: Results from CHAMP: ([0, 1], [0.24284862261028822, 0.2748234391704041], [0.826786996380101, 0.6229640698974263], [23, 0], [-76.14934149409427, -80.30246928708758])
+2018-03-23 00:01:00,455 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:01,783 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:01,783 [INFO] src.champ: prev changepoint at: 23 and type is: 0
+2018-03-23 00:01:01,783 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:01,783 [INFO] __main__: Results from CHAMP: ([0, 1], [0.7064729205979667, 0.2748234391704041], [0.8238421491018032, 0.6142792468483168], [23, 0], [-77.49492590453423, -81.96309429466952])
+2018-03-23 00:01:01,783 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:03,192 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:03,193 [INFO] src.champ: prev changepoint at: 23 and type is: 0
+2018-03-23 00:01:03,193 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:03,193 [INFO] __main__: Results from CHAMP: ([0, 1], [0.2787445274640098, 0.2748234391704041], [0.8322947093411592, 0.592172622839829], [23, 0], [-78.85051031497419, -83.63371930225146])
+2018-03-23 00:01:03,193 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:04,656 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:04,656 [INFO] src.champ: prev changepoint at: 23 and type is: 0
+2018-03-23 00:01:04,656 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:04,657 [INFO] __main__: Results from CHAMP: ([0, 1], [0.6904329889867822, 0.2748234391704041], [0.8347539896386862, 0.6285203787104344], [23, 0], [-80.21609472541415, -85.31434430983342])
+2018-03-23 00:01:04,657 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:06,167 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:06,167 [INFO] src.champ: prev changepoint at: 23 and type is: 0
+2018-03-23 00:01:06,167 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:06,167 [INFO] __main__: Results from CHAMP: ([0, 1], [0.3253604748817378, 0.2748234391704041], [0.8359809128776802, 0.550581002309392], [23, 0], [-81.59167913585411, -87.00496931741536])
+2018-03-23 00:01:06,167 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:07,771 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:07,772 [INFO] src.champ: prev changepoint at: 23 and type is: 0
+2018-03-23 00:01:07,772 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:07,772 [INFO] __main__: Results from CHAMP: ([0, 1], [0.7259739355394939, 0.2748234391704041], [0.8220944076171004, 0.5903808977988734], [23, 0], [-82.97726354629405, -88.7055943249973])
+2018-03-23 00:01:07,772 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:09,409 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:09,409 [INFO] src.champ: prev changepoint at: 27 and type is: 0
+2018-03-23 00:01:09,409 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:09,410 [INFO] __main__: Results from CHAMP: ([0, 1], [0.2732304237417747, 0.24258922576807157], [0.8185330406818511, 0.6412673707380149], [27, 0], [-84.35301034530197, -90.41621933257926])
+2018-03-23 00:01:09,410 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:11,134 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:11,134 [INFO] src.champ: prev changepoint at: 27 and type is: 0
+2018-03-23 00:01:11,134 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:11,134 [INFO] __main__: Results from CHAMP: ([0, 1], [0.7270009757763042, 0.24258922576807157], [0.780415273220335, 0.6155303283420405], [27, 0], [-85.71859475574193, -92.1368443401612])
+2018-03-23 00:01:11,135 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:12,926 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:12,926 [INFO] src.champ: prev changepoint at: 27 and type is: 0
+2018-03-23 00:01:12,926 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:12,926 [INFO] __main__: Results from CHAMP: ([0, 1], [0.2676434189153268, 0.24258922576807157], [0.8094264991210424, 0.6117252549546465], [27, 0], [-87.0941791661819, -93.86746934774315])
+2018-03-23 00:01:12,926 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:14,715 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:14,715 [INFO] src.champ: prev changepoint at: 27 and type is: 0
+2018-03-23 00:01:14,715 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:14,715 [INFO] __main__: Results from CHAMP: ([0, 1], [0.6559336104387217, 0.24258922576807157], [0.8383718084805292, 0.585702974601466], [27, 0], [-88.47976357662185, -95.60809435532511])
+2018-03-23 00:01:14,715 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:16,541 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:16,541 [INFO] src.champ: prev changepoint at: 27 and type is: 0
+2018-03-23 00:01:16,541 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:16,541 [INFO] __main__: Results from CHAMP: ([0, 1], [0.2792729817767631, 0.24258922576807157], [0.8351143578801049, 0.6251909445854252], [27, 0], [-89.8753479870618, -97.35871936290705])
+2018-03-23 00:01:16,541 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:18,435 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:18,436 [INFO] src.champ: prev changepoint at: 27 and type is: 0
+2018-03-23 00:01:18,436 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:18,436 [INFO] __main__: Results from CHAMP: ([0, 1], [0.7069482583886513, 0.24258922576807157], [0.8295252634530378, 0.6384102570185517], [27, 0], [-91.28093239750177, -99.119344370489])
+2018-03-23 00:01:18,436 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:20,435 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:20,435 [INFO] src.champ: prev changepoint at: 29 and type is: 0
+2018-03-23 00:01:20,435 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:20,436 [INFO] __main__: Results from CHAMP: ([0, 1], [0.17740775487110863, 0.2684008242434892], [0.8528525023151062, 0.5477433420841468], [29, 0], [-92.6865980022257, -100.88996937807094])
+2018-03-23 00:01:20,436 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:22,501 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:22,501 [INFO] src.champ: prev changepoint at: 29 and type is: 0
+2018-03-23 00:01:22,501 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:22,501 [INFO] __main__: Results from CHAMP: ([0, 1], [0.5996359633187952, 0.2684008242434892], [0.810299215154277, 0.5862008623685524], [29, 0], [-94.09218241266566, -102.67059438565289])
+2018-03-23 00:01:22,501 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:24,632 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:24,632 [INFO] src.champ: prev changepoint at: 29 and type is: 0
+2018-03-23 00:01:24,632 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:24,632 [INFO] __main__: Results from CHAMP: ([0, 1], [0.17949479281220596, 0.2684008242434892], [0.8358408647533231, 0.5876184785970212], [29, 0], [-95.50776682310563, -104.46121939323484])
+2018-03-23 00:01:24,633 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:26,825 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:26,825 [INFO] src.champ: prev changepoint at: 29 and type is: 0
+2018-03-23 00:01:26,825 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:26,826 [INFO] __main__: Results from CHAMP: ([0, 1], [0.6293002224057619, 0.2684008242434892], [0.8171637162959027, 0.5737139438076528], [29, 0], [-96.93335123354558, -106.26184440081678])
+2018-03-23 00:01:26,826 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:29,072 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:29,072 [INFO] src.champ: prev changepoint at: 31 and type is: 0
+2018-03-23 00:01:29,072 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:29,072 [INFO] __main__: Results from CHAMP: ([0, 1], [0.17342599179706786, 0.27614603459247444], [0.8470612422859012, 0.5543850214581058], [31, 0], [-98.35901683826951, -108.07246940839875])
+2018-03-23 00:01:29,072 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
+2018-03-23 00:01:31,407 [INFO] src.champ: Backtracking in CHAMP
+2018-03-23 00:01:31,407 [INFO] src.champ: prev changepoint at: 31 and type is: 0
+2018-03-23 00:01:31,407 [INFO] src.champ: prev changepoint at: 0 and type is: 1
+2018-03-23 00:01:31,407 [INFO] __main__: Results from CHAMP: ([0, 1], [0.5889511655750985, 0.27614603459247444], [0.8147489366206929, 0.5950271120047913], [31, 0], [-99.78460124870948, -109.89309441598068])
+2018-03-23 00:01:31,408 [INFO] __main__: Main reported changepoint at 0 from type 1 to 0
