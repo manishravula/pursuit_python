@@ -1,9 +1,14 @@
 import numpy as np
 from enum import IntEnum
 from recordclass import recordclass
+from collections import namedtuple
 
-_point2d = recordclass('Point','x y')
-obs = recordclass('Observation','allPos myInd preyInd')
+_point2d = recordclass('_point2d','x y')
+obs = recordclass('obs','allPos myInd preyInd')
+trajectory = namedtuple('trajectory','type listOfObservations')
+adhoc_observation = namedtuple('adhoc_observation','timestep obs action ap')
+
+cp_trajectory = namedtuple('cp_trajcetory','from_type, to_type, cp_time, listOfObservations')
 
 class Point2D(_point2d):
 
@@ -29,6 +34,12 @@ class Point2D(_point2d):
             return True
         else:
             return False
+
+    def as_array(self):
+        return np.array([self.x,self.y])
+
+    def as_tuple(self):
+        return (self.x,self.y)
 
     def manhattan_dist(self):
         return abs(self.x)+abs(self.y)

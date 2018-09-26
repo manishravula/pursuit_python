@@ -73,7 +73,7 @@ def assignTeammateAwareDesiredDests(obs, stopAfterAssigningCurrentPred, moveOnto
         #remove this option for other predators
         for pred in range(NUM_PREDATORS):
             if(minDists[pred]<0):
-                pass
+                continue
             distances[pred][chosenDest] = 999999
             if (minInds[pred]==chosenDest):
                 minDists[pred] = 999999
@@ -101,14 +101,10 @@ def step(obs):
     myPos_tuple = (myPos.x,myPos.y)
     dest_tuple = (dest.x,dest.y)
     route,cost = astar.a_star_search(astar_grid,myPos_tuple,dest_tuple)
-    if myPos_tuple in route.values():
-        #No Path
-        for block in route.keys():
-            if route[block]==myPos_tuple:
-                first_block = block
-                break
-            else:
-                pass
+
+    if dest_tuple in route.keys():
+        path = astar.reconstruct_path(route,myPos_tuple,dest_tuple)
+        first_block = path[1]
         first_block_point = defs.Point2D(first_block[0],first_block[1])
         diff = getDifferenceToPoint(obs.allPos[obs.myInd],first_block_point)
         return const.ACTIONS_TO_ACTIONPROBS[const.MOVES_TO_ACTIONS[str(diff)]]

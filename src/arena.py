@@ -10,7 +10,7 @@ import src.global_defs as defs
 import src.global_const as const
 import experiments.configuration as config
 import time
-
+import agents.agent_factory as agentFactory
 
 
 """
@@ -87,6 +87,26 @@ class arena():
         self.center_point.y = int(config.DIMENSIONS/2)
 
 
+    @classmethod
+    def create_rndAgents_rndPrey(cls,n_agents,visualize=False):
+        #Classmethod to create random agents and prey location
+        agents = agentFactory.gen_agents_random(n_agents)
+        prey_loc = np.random.randint(0,config.DIMENSIONS/2,2)
+        agent_locations = [agent.pos.as_array() for agent in agents]
+
+        collision = True
+        while(collision):
+            #Check if the prey_loc is already occupied
+            prey_loc = np.random.randint(0,config.DIMENSIONS,2)
+            collision = False
+            for loc in agent_locations:
+                if np.all(loc==prey_loc):
+                    collision=True
+        return arena(prey_loc,agents,visualize)
+
+
+
+
     def init_add_agents(self,agents_list):
         #Add agent objects once they are created.
         #The last agent added is a dummy agent, used for MCTS
@@ -102,6 +122,8 @@ class arena():
         self.visualize_thread.start()
 
 
+
+
     def build_agentPositionArray(self):
         posarray = []
         for agent in self.agents:
@@ -109,6 +131,11 @@ class arena():
         return posarray
 
 
+    def create_observation_for_agent(self,ind):
+        allpos = [self.prey_loc]+self.build_agentPositionArray()
+        preyInd = 0
+        myInd = ind+1
+        return defs.obs(allpos,myInd,preyInd)
 
 
     def step(self):
@@ -156,8 +183,6 @@ class arena():
         if self.visualize:
             self.update_vis()
 
-
-
         self.prey_step()
         if config.SIM_DELAY:
             time.sleep(config.SIM_DELAY/3)
@@ -166,7 +191,6 @@ class arena():
             self.update_vis()
 
         # self.world_center()
-
         if self.visualize:
             self.update_vis()
 

@@ -138,7 +138,6 @@ import src.agents.adhoc_agent as sadhoc
 #     pickle.dump(traj_list,handle)
 
 #sadhoc.estimate_type(traj_list[0])
-# champ_observer = achapagent.champ_middleware()
 
 #Create dictionary of observations
 bag_of_obs = {}
@@ -223,29 +222,70 @@ def sumstats_matrix_range(summary_array, sample_size_low,sample_size_high):
         results.append(curr_res)
     return np.array(results)
 
-def make_percentages(sum_array):
-    s_arr = np.sum(sum_array,axis=1)
-    new_s = n
+
+# print("Summary matrix for 10")
+# print(sumstats_matrix_aggregate(summary_array,10))
+#
+#
+# print("summary matrix for 10-20")
+# print(sumstats_matrix_range(summary_array,10,20))
+#
+# print("summary matrix for 20-30")
+# print(sumstats_matrix_range(summary_array,20,30))
+
+# print("summary matrix for 30-40")
+# print(sumstats_matrix_range(summary_array,30,40))
+#
+# while(1):
+#     ijk=0
 
 
-print("Summary matrix for 10")
-print(sumstats_matrix_aggregate(summary_array,10))
+#CHAMP STUFF BEGIN
+
+#Create trajectories with artificial changepoints
+n_trajectories_per_set=20
+traj_length = 50
+changepoint_location = range(20,30)
 
 
-print("summary matrix for 10-20")
-print(sumstats_matrix_range(summary_array,10,20))
+traj_list = []
+for cp_loc in changepoint_location:
+    pre_type_list = []
+    for pre_type in range(4):
+        for post_type in range(4):
+            for j in range(n_trajectories_per_set):
+                pre_part = random.choice(bag_of_obs[pre_type],cp_loc)
+                post_part = random.choice(bag_of_obs[post_type],traj_length-cp_loc)
+                post_type_list = pre_part+post_part
+        pre_type_list.append(post_type_list)
+    traj_list.append(pre_type_list)
 
-print("summary matrix for 20-30")
-print(sumstats_matrix_range(summary_array,20,30))
-
-print("summary matrix for 30-40")
-print(sumstats_matrix_range(summary_array,30,40))
-
-while(1):
-    ijk=0
 
 
-# CHAMP STUFF BEGIN
+
+res_list =[]
+for traj_set in traj_list[0]:
+    for pre_tp_set in traj_set:
+        pre_tp_res = []
+        for post_tp_set in pre_tp_set:
+            post_tp_res = []
+            for traj in post_tp_set:
+                curr_traj_res = []
+                champ_tool = achapagent.champ_middleware(18,20,1,50,40)
+                for obs in traj:
+                    res = champ_tool.observe(obs)
+                    curr_traj_res.append(res)
+            post_tp_res.append(curr_traj_res)
+        pre_tp_res.append(post_tp_res)
+    res_list.append(pre_tp_res)
+
+
+
+
+
+
+
+
 # for traj in cp_traj_list:
 #     res_list = []
 #     print("Processing trajectory with length {}-------------------------------------".format(len(traj.listOfObservations)))

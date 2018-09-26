@@ -47,7 +47,7 @@ class agent_ppd():
 
         for i in range(len(self.destinations)):
             if(getCollision(obs.allPos,self.destinations[i])):
-                pass
+               continue
             diff = getDifferenceToPoint(obs.allPos[obs.myInd],self.destinations[i])
             if (abs(diff.x) > abs(diff.y)):
                 chosenMove.x = np.sign(diff.x)
@@ -59,7 +59,7 @@ class agent_ppd():
             if nextPos==obs.allPos[obs.myInd]:
                 assert nextPos != obs.allPos[obs.myInd]
             if getCollision(obs.allPos,nextPos) >= 0:
-                pass
+                continue
             moves.append(const.MOVES_TO_ACTIONS[str(chosenMove)])
             destDists.append(diff.manhattan_dist())
 
@@ -79,7 +79,7 @@ class agent_ppd():
 
         distanceToPrey = getDistanceToPoint(myPos,preyPos)
         if(distanceToPrey==1):
-            move = getDistanceToPoint(myPos,preyPos)
+            move = getDifferenceToPoint(myPos,preyPos)
             action = const.MOVES_TO_ACTIONS[str(move)]
             action_probs= const.ACTIONS_TO_ACTIONPROBS[action]
             return action_probs
